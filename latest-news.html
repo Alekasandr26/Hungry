@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest-news</title>
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush|PT+Sans:400,400i,700,700i|Ubuntu:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="wont_awesome/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="fancybox-master/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-">
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top py-4 py-lg-0"> 
+        <div class="container-fluid  px-xl-5 p-0">
+            <a class="ff-ubuntu font-weight-bold fs-22 text-uppercase text-light ls-3px cursor-pointer">Hungry<span class="color-yellow">.</span></a>
+            <button class="navbar-toggler without-contour"  data-target="#my-nav" data-toggle="collapse"  aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fas fa-bars text-white"></i></span>
+                <span><i class="fas fa-times text-white d-none"></i></span>
+            </button>
+            <div id="my-nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto scroll  mt-3 mt-lg-0">
+                    <li class="nav-item d-flexe">
+                        <a class="nav-link  d-flex align-items-center text-uppercase text-white fs-14 ff-PT-sans font-weight-bold px-3 mx-1 h-110px h-0  hover-link active-item  h-lg-35px" href="#home">home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link d-flex  align-items-center text-uppercase text-white fs-14 ff-PT-sans font-weight-bold px-3 mx-1 h-110px h-0  hover-link  h-lg-35px" href="#about-us">about us</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link d-flex  align-items-center text-uppercase text-white fs-14 ff-PT-sans font-weight-bold px-3 mx-1 h-110px h-0  hover-link  h-lg-35px" href="#the-menu">the menu</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link d-flex  align-items-center text-uppercase text-white fs-14 ff-PT-sans font-weight-bold px-3 mx-1 h-110px h-0  hover-link  h-lg-35px" href="#our-team">our team</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link d-flex  align-items-center text-uppercase text-white fs-14 ff-PT-sans font-weight-bold px-3 mx-1 h-110px h-0  hover-link  h-lg-35px" href="#gallery">the gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex  align-items-center text-uppercase text-white fs-14 ff-PT-sans font-weight-bold px-3 mx-1 h-110px h-0  hover-link h-lg-35px " href="#our-blog">our blog</a>
+                        <ul class="bg-light position-absolute text-left list-inline w-150px child-1 | position-lg-relative w-lg-100 ml-1">
+                            <i class="fas fa-sort-up  text-white ml-5 mt-n10px  fs-30 position-absolute d-none d-lg-block"></i>
+                            <li class="position-relative"><a href="#" class="ff-PT-sans  d-flex  align-items-center font-weight-bold text-black text-decoration-none text-uppercase fs-12 h-35px d-block pl-3 hover-drob-link">recipes & menus</a></li>
+                            <li class="position-relative"><a href="#" class="ff-PT-sans  d-flex  align-items-center font-weight-bold text-black text-decoration-none text-uppercase fs-12 h-35px d-block pl-3 hover-drob-link">cooking tips</a></li>
+                            <li class="position-relative">
+                                <a href="#" class="ff-PT-sans  d-flex  align-items-center font-weight-bold text-black text-decoration-none text-uppercase fs-12 h-35px d-block pl-3 hover-drob-link">other stuff</a>
+                                <ul class="bg-light z-index-100 position-absolute text-left list-inline w-150px child-2 mt-n4 ml-110px w-lg-100">
+                                    <li class="position-relative"><a href="#" class="ff-PT-sans  d-flex  align-items-center font-weight-bold text-black text-decoration-none text-uppercase fs-12 h-35px d-block pl-3 hover-drob-link">food</a></li>
+                                    <li class="position-relative"><a href="#" class="ff-PT-sans  d-flex  align-items-center font-weight-bold text-black text-decoration-none text-uppercase fs-12 h-35px d-block pl-3 hover-drob-link">ingredients</a></li>
+                                    <li class="position-relative"><a href="#" class="ff-PT-sans  d-flex  align-items-center font-weight-bold text-black text-decoration-none text-uppercase fs-12 h-35px d-block pl-3 hover-drob-link">vagetables</a></li>
+                                    <li class="position-relative"><a href="#" class="ff-PT-sans  d-flex  align-items-center font-weight-bold text-black text-decoration-none text-uppercase fs-12 h-35px d-block pl-3 hover-drob-link">spices</a></li>
+                                    <li class="position-relative"><a href="#" class="ff-PT-sans  d-flex  align-items-center font-weight-bold text-black text-decoration-none text-uppercase fs-12 h-35px d-block pl-3 hover-drob-link">the carvery</a></li>
+                                </ul>
+                            </li>
+                            <li class="position-relative"><a href="#" class="ff-PT-sans  d-flex  align-items-center font-weight-bold text-black text-decoration-none text-uppercase fs-12 h-35px d-block pl-3 hover-drob-link">more stuff</a></li>
+                            <li class="position-relative"><a href="#" class="ff-PT-sans  d-flex  align-items-center font-weight-bold text-black text-decoration-none text-uppercase fs-12 h-35px d-block pl-3 hover-drob-link">shortcodes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link d-flex  align-items-center text-uppercase text-white fs-14 ff-PT-sans font-weight-bold  px-3 mx-1 h-110px h-0  hover-link  h-lg-35px" href="#reservation">reservations</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- header -->
+    <header>
+        <div class="container-fluid bg-header h-400px d-flex justify-content-center">
+            <div class="row align-items-center">
+                <div class="col-md-12 text-center ">
+                    <h2 class="ff-ubuntu fs-32 font-weight-bold text-uppercase text-white mt-100px">latest news</h2>
+                    <figure class="d-inline-block">
+                        <img src="img/Stars.png" alt="">
+                    </figure>
+                    <ul class="list_inlite p-0 mt-2">
+                        <li class="list-inline-item"><a href="#" class="ff-PT-sans font-weight-bolder fs-11 text-decoration-none text-white hover-yellow">Home ></a></li">
+                        <li class="list-inline-item"><a href="#" class="ff-PT-sans font-weight-bolder fs-11 text-decoration-none text-white hover-yellow">Our blog ></a></li>
+                        <li class="list-inline-item"><a href="#" class="ff-PT-sans font-weight-bolder fs-11 text-decoration-none text-white hover-yellow">Blog Entry </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- What makes a perfect curry?-->
+    <section>
+        <div class="container">
+            <div class="row mt-100px mt-md-50px">
+                <div class="col-lg-8 text-center text-md-left">
+                    <h3 class="ff-ubuntu font-weight-bold fs-32 fs-md-20px text-uppercase">What makes a perfect curry?</h3>
+                    <a href="#" class="h-340px h-md-240px border d-block position-relative mb-3 mb-md-5">
+                        <div class="position-absolute d-inline-block bg-black ff-ubuntu font-weight-bold fs-15 text-white text-uppercase px-2 mt-5 ml-n3 transform-Rotate-7deg">24 now,2014</div>
+                        <img src="img/kulinariya8.jpg" alt="" class="w-100 h-100 object-fit-cover">
+                    </a>
+                    <ul class="list-inline border-bottom-dotted pb-2 text-left">
+                        <li class="list-inline-item  m-0 w-sm-100">
+                            <i class="fas fa-user-alt text-black"></i>
+                            <a href="#" class="ff-PT-sans ml-3  font-weight-bolder text-decoration-none text-black fs-12 hover-yellow">John Doggett</a>
+                        </li>
+                        <li class="list-inline-item   m-0 ml-sm-5 w-sm-100">
+                            <i class="fas fa-folder text-black  "></i>
+                            <a href="#" class="ff-PT-sans ml-3  font-weight-bolder text-decoration-none text-black fs-12 hover-yellow">Indian,</a>
+                            <a href="#" class="ff-PT-sans  font-weight-bolder text-decoration-none text-black fs-12 hover-yellow">Recipes</a>
+                        </li>
+                        <li class="list-inline-item  m-0 ml-sm-5 w-sm-100">
+                            <i class="fas fa-comment text-black "></i>
+                            <a href="#" class="ff-PT-sans ml-3  font-weight-bolder text-decoration-none text-black fs-12 hover-yellow">4 Comments</a>
+                        </li>
+                    </ul>
+                    <p class="ff-PT-sans ff-ubuntu font-weight-light fs-14 mb-4">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam 
+                        eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Aenean commodo ligula eget 
+                        dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec 
+                        quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec vitae sapien ut 
+                        libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla 
+                        mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula eget dolor aenean massa. Sed ut  
+                        perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque 
+                        ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem 
+                        quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi  nesciunt.
+                    </p>
+                    <h4 class="ff-PT-sans ff-ubuntu font-weight-bolder text-uppercase fs-18 mb-4">The key to this trick, is this...</h4>
+
+                    <p class="ff-PT-sans ff-ubuntu font-weight-light fs-14  mb-3"> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
+                        eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis 
+                        nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Nam libero 
+                        tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, 
+                        omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum
+                        necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. 
+                    </p>
+                    <p class="ff-PT-sans ff-ubuntu font-weight-bolder font-italic fs-16 fs-sm-13 border-left-4px-yellow pl-4 mb-4">Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias
+                        consequatur aut perferendis doloribus asperiores repellat!
+                    </p>
+
+                    <p class="ff-PT-sans ff-ubuntu font-weight-light fs-14">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam 
+                        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione.
+                    </p>
+
+                    <ul class="list-inline border-bottom-dotted pb-4 ">
+                        <li class="list-inline-item ml-sm-2 m-0 font-weight-bold fs-12 fs-sm-11">Tagged:</li>
+                        <li class="list-inline-item ml-sm-2 m-0">
+                            <a href="#" class="ff-PT-sans text-decoration-none font-weight-bolder fs-12 fs-sm-11 bg-gray hover-yellow-1 text-black border-radius-5px px-2 py-1">Curry</a>
+                        </li>
+                        <li class="list-inline-item ml-sm-2 m-0">
+                            <a href="#" class="ff-PT-sans text-decoration-none font-weight-bolder fs-12 fs-sm-11 bg-gray hover-yellow-1 text-black border-radius-5px px-2 py-1">Indian</a>
+                        </li>
+                        <li class="list-inline-item ml-sm-2 m-0">
+                            <a href="#" class="ff-PT-sans text-decoration-none font-weight-bolder fs-12 fs-sm-11 bg-gray hover-yellow-1 text-black border-radius-5px px-2 py-1">Cuisine</a>
+                        </li>
+                        <li class="list-inline-item ml-sm-2 m-0">
+                            <a href="#" class="ff-PT-sans text-decoration-none font-weight-bolder fs-12 fs-sm-11 bg-gray hover-yellow-1 text-black border-radius-5px px-2 py-1">Hot</a>
+                        </li>
+                        <li class="list-inline-item ml-sm-2 m-0">
+                            <a href="#" class="ff-PT-sans text-decoration-none font-weight-bolder fs-12 fs-sm-11 bg-gray hover-yellow-1 text-black border-radius-5px px-2 py-1">Spicy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <form action="" method="GET">
+                        <div class="has-search mt-120 position-relative ">
+                            <span class="fa fa-search form-control-feedback position-absolute top-0 right-0 lh-40px  mr-3 cursor-pointer"></span>
+                            <input type="text" class="form-control bg-gray cursor-pointer border-none " placeholder="Search the Site" required minlength="3"> 
+                        </div>
+                   </form>
+
+                    <h4 class="ff-ubuntu font-weight-bold  text-uppercase fs-16 mt-5">Categories</h4>
+
+                    <div class="w-20px h-3px bg-gray opacity-09 my-4 d-lg-block d-none"></div>
+
+                    <ul class="list-inline mb-5">
+                        <li class="border-bottom-dotted pb-2"><i class="fas fa-caret-right color-yellow"></i><a href="#" class="text-decoration-none ff-PT-sans text-black font-weight-bold fs-14 pl-2 hover-yellow">Indian Cuisine</a></li>
+                        <li class="border-bottom-dotted py-1"><i class="fas fa-caret-right color-yellow"></i><a href="#" class="text-decoration-none ff-PT-sans text-black font-weight-bold fs-14 pl-2 hover-yellow">Mexican</a></li>
+                        <li class="border-bottom-dotted py-1"><i class="fas fa-caret-right color-yellow"></i><a href="#" class="text-decoration-none ff-PT-sans text-black font-weight-bold fs-14 pl-2 hover-yellow">Italian</a></li>
+                        <li class="border-bottom-dotted py-1"><i class="fas fa-caret-right color-yellow"></i><a href="#" class="text-decoration-none ff-PT-sans text-black font-weight-bold fs-14 pl-2 hover-yellow">Rare Delicacy</a></li>
+                        <li class="border-bottom-dotted py-1"><i class="fas fa-caret-right color-yellow"></i><a href="#" class="text-decoration-none ff-PT-sans text-black font-weight-bold fs-14 pl-2 hover-yellow">Seafood</a></li>
+                    </ul>
+                    <h4 class="ff-ubuntu font-weight-bold  text-uppercase fs-16 mt-5">Search by tags</h4>
+                    <div class="w-20px h-3px bg-e6e6e6 opacity-09 mb-20"></div>
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item"><a href="#" class="ff-PT-sans text-decoration-none font-weight-bolder fs-12  hover-yellow-1 bg-gray text-black border-radius-5px px-2 py-1">Technigues</a></li>
+                        <li class="list-inline-item"><a href="#" class="ff-PT-sans text-decoration-none font-weight-bolder fs-12  hover-yellow-1 bg-gray text-black border-radius-5px px-2 py-1">Recipes</a></li>
+                        <li class="list-inline-item"><a href="#" class="ff-PT-sans text-decoration-none font-weight-bolder fs-12  hover-yellow-1 bg-gray text-black border-radius-5px px-2 py-1">Cooking</a></li>
+                    </ul>
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item"><a href="#" class="ff-PT-sans text-decoration-none font-weight-bolder fs-12  hover-yellow-1 bg-gray text-black border-radius-5px px-2 py-1">Desert</a></li>
+                        <li class="list-inline-item"><a href="#" class="ff-PT-sans text-decoration-none font-weight-bolder fs-12  hover-yellow-1 bg-gray text-black border-radius-5px px-2 py-1">Chickens</a></li>
+                        <li class="list-inline-item"><a href="#" class="ff-PT-sans text-decoration-none font-weight-bolder fs-12  hover-yellow-1 bg-gray text-black border-radius-5px px-2 py-1">Ingredients</a></li>
+                    </ul>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#" class="ff-PT-sans text-decoration-none font-weight-bolder fs-12  hover-yellow-1 bg-gray text-black border-radius-5px px-2 py-1">Delicacy</a></li>
+                        <li class="list-inline-item"><a href="#" class="ff-PT-sans text-decoration-none font-weight-bolder fs-12  hover-yellow-1 bg-gray text-black border-radius-5px px-2 py-1">Southern</a></li>
+                        <li class="list-inline-item"><a href="#" class="ff-PT-sans text-decoration-none font-weight-bolder fs-12  hover-yellow-1 bg-gray text-black border-radius-5px px-2 py-1">Mexican</a></li>
+                    </ul>
+
+
+                    <!-- Opening Times -->
+                    <h4 class="ff-ubuntu text-white text-uppercase fs-16 mb-4 ">opening times</h4>
+
+                    <div class="w-20px h-3px bg-gray opacity-09 mb-4 d-lg-block d-none"></div>
+                    <div class="d-flex justify-content-between border-bottom-dotted pb-2">
+                        <div class="ff-PT-sans font-weight-bolder fs-16 text-black">Monday</div>
+                        <div class="ff-PT-sans font-weight-light fs-16 text-secondary">5pm-11pm</div>
+                    </div>
+                    <div class="d-flex justify-content-between border-bottom-dotted pb-2">
+                        <div class="ff-PT-sans font-weight-bolder fs-16 text-black">Tuesday</div>
+                        <div class="ff-PT-sans font-weight-light fs-16 text-secondary">5pm-11pm</div>
+                    </div>
+                    <div class="d-flex justify-content-between border-bottom-dotted pb-2">
+                        <div class="ff-PT-sans font-weight-bolder fs-16 text-black">Wednesday</div>
+                        <div class="ff-PT-sans font-weight-light fs-16 text-secondary">Closed</div>
+                    </div>
+                    <div class="d-flex justify-content-between border-bottom-dotted pb-2">
+                        <div class="ff-PT-sans font-weight-bolder fs-16 text-black">Thursday</div>
+                        <div class="ff-PT-sans font-weight-light fs-16 text-secondary">5pm-11pm</div>
+                    </div>
+                    <div class="d-flex justify-content-between border-bottom-dotted pb-2">
+                        <div class="ff-PT-sans font-weight-bolder fs-16 text-black">Friday</div>
+                        <div class="ff-PT-sans font-weight-light fs-16 text-secondary">5pm - Midnight</div>
+                    </div>
+                    <div class="d-flex justify-content-between border-bottom-dotted pb-2">
+                        <div class="ff-PT-sans font-weight-bolder fs-16 text-black">Saturday</div>
+                        <div class="ff-PT-sans font-weight-light fs-16 text-secondary">4:30pm - Midnight</div>
+                    </div>
+                    <div class="d-flex justify-content-between border-bottom-dotted pb-2">
+                        <div class="ff-PT-sans font-weight-bolder fs-16 text-black">Sunday</div>
+                        <div class="ff-PT-sans font-weight-light fs-16 text-secondary">5pm-11pm</div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-8 text-center text-md-left mb-100px mb-md-50px">
+                    <div class="d-flex justify-content-between mb-100px mb-md-20px">
+                        <a href="#my-carousel" data-slide="prev" role="button" class=" text-decoration-none fs-12 fs-sm-8 text-black hover-yellow-1 bg-gray border-radius-5px py-1 pl-3 pr-3 ff-ubuntu font-weight-bold text-uppercase"><i class="fas fa-angle-double-left pr-2"></i>Previous Post Title</a>
+                        <a href="#my-carousel" data-slide="next" role="button" class=" text-decoration-none fs-12 fs-sm-8 text-black hover-yellow-1 bg-gray border-radius-5px py-1 pl-3 pr-3 ff-ubuntu font-weight-bold text-uppercase">Next Post Title<i class="fas fa-angle-double-right pl-2"></i></a>
+                    </div>
+                    
+                    <div id="my-carousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <p class="ff-ubuntu font-weight-bold text-uppercase fs-24 fs-sm-16 mb-sm-5 mb-4">4 <span class="font-weight-light">Thoughts on</span> “What makes the perfect curry?”</p>
+                                <div class="container">
+                                    <div class="row mb-5">
+                                        <div class="col-lg-12 d-sm-flex border-bottom-dotted pb-4 mb-4 p-0">
+                                            <div class="col-12 col-sm-2 d-flex justify-content-center justify-content-sm-end p-0 mb-sm-0 mb-2">
+                                                <a href="#" class="h-60px w-60px rounded-circle  d-block border-gray-3px">
+                                                    <img src="img/coment1.jfif" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 col-sm-10   px-sm-3 p-0">
+                                                <div class="d-flex justify-content-between  ">
+                                                    <h6 class="ff-ubuntu ff-PT-sans  font-weight-bold fs-18 fs-sm-11  text-uppercase">Jackson Briggs<span class="pl-1 text-secondary text-capitalize font-weight-light">Says...</span></h6>
+                                                    <span class="ff-PT-sans fs-12 fs-sm-8 text-secondary">Replied on 27 Nov, 2015 at 5:22pm</span>
+                                               </div>
+                                               <p class="ff-ubuntu ff-PT-sans font-weight-light fs-14 fs-sm-11 mb-2">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+                                                non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut
+                                                enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+                                                </p>
+                                                <a href="#" class="ff-ubuntu font-weight-bold text-uppercase text-decoration-none fs-12 fs-sm-8 text-black bg-gray border-radius-5px px-2 py-1 hover-yellow-1 mb-3">
+                                                    <i class="fas fa-share transform-rotate-180deg mr-1"></i>reply
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 d-sm-flex border-bottom-dotted pb-4 mb-4 p-0">
+                                            <div class="col-12 col-sm-3 d-flex justify-content-center justify-content-sm-end p-0 mb-sm-0 mb-2">
+                                                <a href="#" class="h-60px w-60px rounded-circle  d-block border-gray-3px">
+                                                    <img src="img/coment2.jfif" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 col-sm-9 px-sm-3 p-0">
+                                                <div class="d-flex justify-content-between  ">
+                                                    <h6 class="ff-ubuntu ff-PT-sans  font-weight-bold fs-18 fs-sm-11  text-uppercase">Shannon McMann<span class="pl-1 text-secondary text-capitalize font-weight-light">Says...</span></h6>
+                                                    <span class="ff-PT-sans fs-12 fs-sm-8 text-secondary">Replied on 28 Nov, 2015 at 6:34pm</span>
+                                               </div>
+                                               <p class="ff-ubuntu ff-PT-sans font-weight-light fs-14 fs-sm-11 mb-2">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+                                                non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut
+                                                enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+                                                </p>
+                                                <a href="#" class="ff-ubuntu font-weight-bold text-uppercase text-decoration-none fs-12 fs-sm-8 text-black bg-gray border-radius-5px px-2 py-1 hover-yellow-1 mb-3">
+                                                    <i class="fas fa-share transform-rotate-180deg mr-1"></i>reply
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 d-sm-flex border-bottom-dotted pb-4 mb-4 p-0">
+                                            <div class="col-12 col-sm-4 d-flex justify-content-center justify-content-sm-end p-0 mb-sm-0 mb-2">
+                                                <a href="#" class="h-60px w-60px rounded-circle  d-block border-gray-3px">
+                                                    <img src="img/coment3.jfif" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 col-sm-8 px-sm-3 p-0">
+                                                <div class="d-flex justify-content-between  ">
+                                                    <h6 class="ff-ubuntu ff-PT-sans  font-weight-bold fs-18 fs-sm-11  text-uppercase">Monica Reyes<span class="pl-1 text-secondary text-capitalize font-weight-light">Says...</span></h6>
+                                                    <span class="ff-PT-sans fs-12 text-secondary">Replied on 28 Nov, 2015 at 5:56pm</span>
+                                               </div>
+                                               <p class="ff-ubuntu ff-PT-sans font-weight-light fs-14 fs-sm-11 mb-2">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+                                                non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut
+                                                enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+                                                </p>
+                                                <a href="#" class="ff-ubuntu font-weight-bold text-uppercase text-decoration-none fs-12 fs-sm-8 text-black bg-gray border-radius-5px px-2 py-1 hover-yellow-1 mb-3">
+                                                    <i class="fas fa-share transform-rotate-180deg mr-1"></i>reply
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 d-sm-flex border-bottom-dotted pb-4 mb-4 p-0">
+                                            <div class="col-12 col-sm-2 d-flex justify-content-center justify-content-sm-end p-0 mb-sm-0 mb-2">
+                                                <a href="#" class="h-60px w-60px rounded-circle  d-block border-gray-3px">
+                                                    <img src="img/coment4.jfif" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 col-sm-10   px-sm-3 p-0">
+                                                <div class="d-flex justify-content-between  ">
+                                                    <h6 class="ff-ubuntu ff-PT-sans  font-weight-bold fs-18 fs-sm-11  text-uppercase">Barbara Doggett<span class="pl-1 text-secondary text-capitalize font-weight-light">Says...</span></h6>
+                                                    <span class="ff-PT-sans fs-12 text-secondary">Replied on 29 Nov, 2015 at 2:31pm</span>
+                                               </div>
+                                               <p class="ff-ubuntu ff-PT-sans font-weight-light fs-14 fs-sm-11 mb-2">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+                                                non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut
+                                                enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+                                                </p>
+                                                <a href="#" class="ff-ubuntu font-weight-bold text-uppercase text-decoration-none fs-12 fs-sm-8 text-black bg-gray border-radius-5px px-2 py-1 hover-yellow-1 mb-3">
+                                                    <i class="fas fa-share transform-rotate-180deg mr-1"></i>reply
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item"> 
+                                <p class="ff-ubuntu font-weight-bold text-uppercase fs-24 fs-sm-16 mb-sm-5 mb-4">4 <span class="font-weight-light">Thoughts on</span> “What makes the perfect curry?”</p>
+                                <div class="container">
+                                    <div class="row mb-5">
+                                        <div class="col-lg-12 d-sm-flex border-bottom-dotted pb-4 mb-4 p-0">
+                                            <div class="col-12 col-sm-2 d-flex justify-content-center justify-content-sm-end p-0 mb-sm-0 mb-2">
+                                                <a href="#" class="h-60px w-60px rounded-circle  d-block border-gray-3px">
+                                                    <img src="img/coment1.jfif" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 col-sm-10   px-sm-3 p-0">
+                                                <div class="d-flex justify-content-between  ">
+                                                    <h6 class="ff-ubuntu ff-PT-sans  font-weight-bold fs-18 fs-sm-11  text-uppercase">Jackson Briggs<span class="pl-1 text-secondary text-capitalize font-weight-light">Says...</span></h6>
+                                                    <span class="ff-PT-sans fs-12 fs-sm-8 text-secondary">Replied on 27 Nov, 2015 at 5:22pm</span>
+                                               </div>
+                                               <p class="ff-ubuntu ff-PT-sans font-weight-light fs-14 fs-sm-11 mb-2">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+                                                non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut
+                                                enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+                                                </p>
+                                                <a href="#" class="ff-ubuntu font-weight-bold text-uppercase text-decoration-none fs-12 fs-sm-8 text-black bg-gray border-radius-5px px-2 py-1 hover-yellow-1 mb-3">
+                                                    <i class="fas fa-share transform-rotate-180deg mr-1"></i>reply
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 d-sm-flex border-bottom-dotted pb-4 mb-4 p-0">
+                                            <div class="col-12 col-sm-3 d-flex justify-content-center justify-content-sm-end p-0 mb-sm-0 mb-2">
+                                                <a href="#" class="h-60px w-60px rounded-circle  d-block border-gray-3px">
+                                                    <img src="img/coment2.jfif" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 col-sm-9 px-sm-3 p-0">
+                                                <div class="d-flex justify-content-between  ">
+                                                    <h6 class="ff-ubuntu ff-PT-sans  font-weight-bold fs-18 fs-sm-11  text-uppercase">Shannon McMann<span class="pl-1 text-secondary text-capitalize font-weight-light">Says...</span></h6>
+                                                    <span class="ff-PT-sans fs-12 fs-sm-8 text-secondary">Replied on 28 Nov, 2015 at 6:34pm</span>
+                                               </div>
+                                               <p class="ff-ubuntu ff-PT-sans font-weight-light fs-14 fs-sm-11 mb-2">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+                                                non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut
+                                                enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+                                                </p>
+                                                <a href="#" class="ff-ubuntu font-weight-bold text-uppercase text-decoration-none fs-12 fs-sm-8 text-black bg-gray border-radius-5px px-2 py-1 hover-yellow-1 mb-3">
+                                                    <i class="fas fa-share transform-rotate-180deg mr-1"></i>reply
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 d-sm-flex border-bottom-dotted pb-4 mb-4 p-0">
+                                            <div class="col-12 col-sm-4 d-flex justify-content-center justify-content-sm-end p-0 mb-sm-0 mb-2">
+                                                <a href="#" class="h-60px w-60px rounded-circle  d-block border-gray-3px">
+                                                    <img src="img/coment3.jfif" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 col-sm-8 px-sm-3 p-0">
+                                                <div class="d-flex justify-content-between  ">
+                                                    <h6 class="ff-ubuntu ff-PT-sans  font-weight-bold fs-18 fs-sm-11  text-uppercase">Monica Reyes<span class="pl-1 text-secondary text-capitalize font-weight-light">Says...</span></h6>
+                                                    <span class="ff-PT-sans fs-12 text-secondary">Replied on 28 Nov, 2015 at 5:56pm</span>
+                                               </div>
+                                               <p class="ff-ubuntu ff-PT-sans font-weight-light fs-14 fs-sm-11 mb-2">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+                                                non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut
+                                                enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+                                                </p>
+                                                <a href="#" class="ff-ubuntu font-weight-bold text-uppercase text-decoration-none fs-12 fs-sm-8 text-black bg-gray border-radius-5px px-2 py-1 hover-yellow-1 mb-3">
+                                                    <i class="fas fa-share transform-rotate-180deg mr-1"></i>reply
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 d-sm-flex border-bottom-dotted pb-4 mb-4 p-0">
+                                            <div class="col-12 col-sm-2 d-flex justify-content-center justify-content-sm-end p-0 mb-sm-0 mb-2">
+                                                <a href="#" class="h-60px w-60px rounded-circle  d-block border-gray-3px">
+                                                    <img src="img/coment4.jfif" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                                </a>
+                                            </div>
+                                            <div class="col-12 col-sm-10   px-sm-3 p-0">
+                                                <div class="d-flex justify-content-between  ">
+                                                    <h6 class="ff-ubuntu ff-PT-sans  font-weight-bold fs-18 fs-sm-11  text-uppercase">Barbara Doggett<span class="pl-1 text-secondary text-capitalize font-weight-light">Says...</span></h6>
+                                                    <span class="ff-PT-sans fs-12 text-secondary">Replied on 29 Nov, 2015 at 2:31pm</span>
+                                               </div>
+                                               <p class="ff-ubuntu ff-PT-sans font-weight-light fs-14 fs-sm-11 mb-2">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia
+                                                non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut
+                                                enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+                                                </p>
+                                                <a href="#" class="ff-ubuntu font-weight-bold text-uppercase text-decoration-none fs-12 fs-sm-8 text-black bg-gray border-radius-5px px-2 py-1 hover-yellow-1 mb-3">
+                                                    <i class="fas fa-share transform-rotate-180deg mr-1"></i>reply
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="#" method="GET" class="form-control-plaintext">
+                        <h3 class="ff-ubuntu font-weight-bold fs-24 text-uppercase">Post a Reply</h3>
+                        <div class="col-md-12 d-md-flex p-0">
+                            <div class="col-md-6 pr-md-3 p-0">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="required form-control ff-PT-sans fs-14  pl-4    bg-gray   font-weight-bolder outline-none border-none cursor-pointer" placeholder="Your Name*">
+                                </div>
+                            </div>
+                            <div class="col-md-6 pl-md-3 p-0">
+                                <div class="form-group">
+                                    <input type="email" name="email" class="required form-control ff-PT-sans fs-14  pl-4    bg-gray   font-weight-bolder outline-none border-none cursor-pointer" placeholder="Your Email*">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12  mb-100 mb-50-before-992px p-0">
+                            <textarea type="text" name="textarea" cols="30" rows="8" class="required form-control ff-PT-sans fs-14  pl-20 mb-3    bg-gray   font-weight-bolder outline-none border-none cursor-pointer" placeholder="Your Comment..."></textarea>
+                            <input type="submit" value="Submit Reply!"  class="btn btn-dark ff-PT-sans font-weight-bold fs-14 w-100"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section class="bg-restoran overflow-hidden">
+        <div class="container-fluid">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-lg-4 mb-100px mb-lg-0px mt-65px">
+                        <h4 class="ff-ubuntu font-weight-bold text-white text-uppercase fs-16 mb-4">contact us</h4>
+                        <div class="w-20px h-3px bg-gray opacity-09 mb-4 d-lg-block d-none"></div>
+                        <p class="ff-PT-sans fs-14  text-secondary mb-4">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc.</p>
+                        <a href="#" class=" text-decoration-none text-secondary fs-18 fs-sm-13 w-100 hover-white mb-1 d-block">
+                            <i class="fas fa-phone-square-alt fs-22 pr-4 text-white "></i>
+                            +00678987658
+                        </a>
+                        <a href="#" class="ff-PT-sans  text-secondary fs-18 fs-sm-13  w-100 hover-white d-block mb-1">
+                            <i class="fas fa-envelope-square fs-22 pr-4 text-white"></i>
+                            bookings@hungrytheme.net
+                        </a>
+                        <a href="#" class="fs-14 ff-PT-sans font-italic text-secondary text-decoration-none hover-white d-flex">
+                            <i class="fas fa-caret-square-down fs-22 pr-4 text-white"></i>  
+                            <p class="w-50  m-0 fs-18 fs-sm-13 w-sm-100">18 Stomach Ave. Foodville, USA</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-100px mb-lg-0px mt-65px px-0 px-lg-2">
+                        <h4 class="ff-ubuntu text-white text-uppercase fs-16 mb-4">new on the menu</h4>
+                        <div class="w-20px h-3px bg-gray opacity-09 mb-4 d-lg-block d-none"></div>
+                        <div class="border-bottom-dotted mb-3 pb-2 d-flex">
+                            <a href="img/steacBurger.jpg" class="h-50px w-50px border-gray-3px hover-border  rounded-circle  transition-03 d-block new-menu"   data-fancybox="new-menu" data-caption="Angus Steak Burger" >
+                                <img src="img/steacBurger.jpg" class="w-100 h-100 object-fit-cover rounded-circle" alt="">
+                            </a>
+                            <div class="ml-3">
+                                <a href="img/steacBurger.jpg" class="ff-PT-sans ff-ubuntu font-weight-bold fs-16 fs-sm-13 text-decoration-none text-uppercase text-white hover-yellow  m-0 new-menu1"    data-fancybox="new-menu1" data-caption="Angus Steak Burger">Angus Steak Burger</a>
+                                <p class="ff-ubuntu ff-PT-sans fs-16 fs-sm-13 text-secondary m-0">Aenean commodo ligula eget dolor.</p>
+                            </div>
+                        </div>
+                        <div class="border-bottom-dotted mb-3 pb-2 d-flex">
+                            <a href="img/MEXICAN CHICKEN FAJITAS.jpg" class="h-50px w-50px border-gray-3px hover-border  rounded-circle  transition-03 d-block new-menu"   data-fancybox="new-menu" data-caption="Mexican Chicken Fajitas" >
+                                <img src="img/MEXICAN CHICKEN FAJITAS.jpg" class="w-100 h-100 object-fit-cover rounded-circle" alt="">
+                            </a>
+                            <div class="ml-3">
+                                <a href="img/MEXICAN CHICKEN FAJITAS.jpg" class="ff-PT-sans ff-ubuntu font-weight-bold fs-16 fs-sm-13 text-decoration-none text-uppercase text-white hover-yellow  m-0 menu1" data-fancybox="new-menu1" data-caption="Mexican Chicken Fajitas">mexican chicken fajitas</a>
+                                <p class="ff-ubuntu ff-PT-sans fs-16 fs-sm-13 text-secondary m-0">Aenean commodo ligula eget dolor.</p>
+                            </div>
+                        </div>
+                        <div class=" pb-2 d-flex">
+                            <a href="img/CHOCOLATE FUDGE CAKE.jpg" class="h-50px w-50px border-gray-3px hover-border  rounded-circle  transition-03 d-block" class="new-menu"  data-fancybox="new-menu" data-caption="Chocolate fudge cake" >
+                                <img src="img/CHOCOLATE FUDGE CAKE.jpg" class="w-100 h-100 object-fit-cover rounded-circle" alt="">
+                            </a>
+                            <div class="ml-3">
+                                <a href="img/CHOCOLATE FUDGE CAKE.jpg" class="ff-PT-sans ff-ubuntu font-weight-bold fs-16 fs-sm-13 text-decoration-none text-uppercase text-white hover-yellow  m-0 new-menu1" data-fancybox="new-menu1" data-caption="Chocolate fudge cake">chocolate fudge cake</a>
+                                <p class="ff-ubuntu ff-PT-sans fs-16 fs-sm-13 text-secondary m-0">Aenean commodo ligula eget dolor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-100px mb-lg-50px mt-65px ">
+                        <h4 class="ff-ubuntu text-white text-uppercase fs-16 mb-4 ">opening times</h4>
+                        <div class="w-20px h-3px bg-gray opacity-09 mb-4 d-lg-block d-none"></div>
+                        <div class="d-flex justify-content-between border-bottom-dotted pb-2">
+                            <div class="ff-PT-sans font-weight-bolder fs-16 text-white">Monday</div>
+                            <div class="ff-PT-sans font-weight-light fs-16 text-secondary">5pm-11pm</div>
+                        </div>
+                        <div class="d-flex justify-content-between border-bottom-dotted pb-2">
+                            <div class="ff-PT-sans font-weight-bolder fs-16 text-white">Tuesday</div>
+                            <div class="ff-PT-sans font-weight-light fs-16 text-secondary">5pm-11pm</div>
+                        </div>
+                        <div class="d-flex justify-content-between border-bottom-dotted pb-2">
+                            <div class="ff-PT-sans font-weight-bolder fs-16 text-white">Wednesday</div>
+                            <div class="ff-PT-sans font-weight-light fs-16 text-secondary">Closed</div>
+                        </div>
+                        <div class="d-flex justify-content-between border-bottom-dotted pb-2">
+                            <div class="ff-PT-sans font-weight-bolder fs-16 text-white">Thursday</div>
+                            <div class="ff-PT-sans font-weight-light fs-16 text-secondary">5pm-11pm</div>
+                        </div>
+                        <div class="d-flex justify-content-between border-bottom-dotted pb-2">
+                            <div class="ff-PT-sans font-weight-bolder fs-16 text-white">Friday</div>
+                            <div class="ff-PT-sans font-weight-light fs-16 text-secondary">5pm - Midnight</div>
+                        </div>
+                        <div class="d-flex justify-content-between border-bottom-dotted pb-2">
+                            <div class="ff-PT-sans font-weight-bolder fs-16 text-white">Saturday</div>
+                            <div class="ff-PT-sans font-weight-light fs-16 text-secondary">4:30pm - Midnight</div>
+                        </div>
+                        <div class="d-flex justify-content-between border-bottom-dotted pb-2">
+                            <div class="ff-PT-sans font-weight-bolder fs-16 text-white">Sunday</div>
+                            <div class="ff-PT-sans font-weight-light fs-16 text-secondary">5pm-11pm</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-footer py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 text-lg-left text-center ">
+                        <span class="ff-ubuntu font-weight-bolder fs-22 fs-sm-20  text-white text-uppercase ls-5px ls-sm-3px">hungry</span>
+                        <span class="ff-ubuntu fs-12 fs-sm-8  text-secondary text-uppercase ls-3px">| Established in 1982</span>
+                    </div>
+                    <div class="col-lg-6 text-lg-right text-center">
+                        <p  class="ff-PT_sans font-weight-normal fs-12 text-secondary m-0">
+                            Designed by 
+                            <a href="#" class="color-yellow text-decoration-none  hover-white">Subatomic Themes</a>
+                            for 
+                            <a href="#"  class="color-yellow text-decoration-none hover-white">Themeforest</a>
+                            . Proudly Powered by 
+                            <a href="#" class="color-yellow text-decoration-none  hover-white">WordPress</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="fancybox-master/dist/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

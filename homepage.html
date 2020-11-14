@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hungry</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush|PT+Sans:400,400i,700,700i|Ubuntu:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="wont_awesome/css/all.min.css">
+    <link rel="stylesheet" href="fancybox-master/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-body">
+    <!-- Scroll Top -->
+    <div class="scrollTop">
+        <a href="#home" class="color-yellow "><i class="fas fa-angle-double-up"></i></a>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top py-4 py-lg-0"> 
+        <div class="container-fluid  px-xl-5 p-0 ">
+            <a href="#home" class="ff-ubuntu font-weight-bold fs-22 text-uppercase text-light ls-3px cursor-pointer">Hungry<span class="color-yellow">.</span></a>
+            <button class="navbar-toggler without-contour"  data-target="#my-nav" data-toggle="collapse"  aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fas fa-bars text-white"></i></span>
+                <span><i class="fas fa-times text-white d-none"></i></span>
+            </button>
+            <div id="my-nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav  ml-auto scroll  mt-3 mt-lg-0">
+                    <li class="nav-item d-flexe">
+                        <a class="nav-link  d-flex align-items-center text-uppercase text-white fs-14 ff-PT-sans font-weight-bold px-3 mx-1 h-110px h-0  hover-link active-item  h-lg-35px" href="#home">home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link d-flex  align-items-center text-uppercase text-white fs-14 ff-PT-sans font-weight-bold px-3 mx-1 h-110px h-0  hover-link  h-lg-35px" href="#about-us">about us</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link d-flex  align-items-center text-uppercase text-white fs-14 ff-PT-sans font-weight-bold px-3 mx-1 h-110px h-0  hover-link  h-lg-35px" href="#the-menu">the menu</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link d-flex  align-items-center text-uppercase text-white fs-14 ff-PT-sans font-weight-bold px-3 mx-1 h-110px h-0  hover-link  h-lg-35px" href="#our-team">our team</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link d-flex  align-items-center text-uppercase text-white fs-14 ff-PT-sans font-weight-bold px-3 mx-1 h-110px h-0  hover-link  h-lg-35px" href="#gallery">the gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link d-flex  align-items-center text-uppercase text-white fs-14 ff-PT-sans font-weight-bold px-3 mx-1 h-110px h-0  hover-link h-lg-35px " href="#our-blog">our blog</a>
+                        <ul class="child-1 bg-light position-absolute text-left list-inline w-150px   position-lg-relative w-lg-100 ml-1">
+                            <i class="fas fa-sort-up  text-white ml-5 mt-n10px  fs-30 position-absolute d-none d-lg-block"></i>
+                            <li class="position-relative"><a href="#" class="ff-PT-sans  d-flex  align-items-center font-weight-bold text-black text-decoration-none text-uppercase fs-12 h-35px d-block pl-3 hover-drob-link">recipes & menus</a></li>
+                            <li class="position-relative"><a href="#" class="ff-PT-sans  d-flex  align-items-center font-weight-bold text-black text-decoration-none text-uppercase fs-12 h-35px d-block pl-3 hover-drob-link">cooking tips</a></li>
+                            <li class="position-relative">
+                                <a href="#" class="ff-PT-sans  d-flex  align-items-center font-weight-bold text-black text-decoration-none text-uppercase fs-12 h-35px d-block pl-3 hover-drob-link">other stuff</a>
+                                <ul class="bg-light z-index-100 position-absolute text-left list-inline w-150px child-2 mt-n4 ml-110px w-lg-100">
+                                    <li class="position-relative"><a href="#" class="ff-PT-sans  d-flex  align-items-center font-weight-bold text-black text-decoration-none text-uppercase fs-12 h-35px d-block pl-3 hover-drob-link">food</a></li>
+                                    <li class="position-relative"><a href="#" class="ff-PT-sans  d-flex  align-items-center font-weight-bold text-black text-decoration-none text-uppercase fs-12 h-35px d-block pl-3 hover-drob-link">ingredients</a></li>
+                                    <li class="position-relative"><a href="#" class="ff-PT-sans  d-flex  align-items-center font-weight-bold text-black text-decoration-none text-uppercase fs-12 h-35px d-block pl-3 hover-drob-link">vagetables</a></li>
+                                    <li class="position-relative"><a href="#" class="ff-PT-sans  d-flex  align-items-center font-weight-bold text-black text-decoration-none text-uppercase fs-12 h-35px d-block pl-3 hover-drob-link">spices</a></li>
+                                    <li class="position-relative"><a href="#" class="ff-PT-sans  d-flex  align-items-center font-weight-bold text-black text-decoration-none text-uppercase fs-12 h-35px d-block pl-3 hover-drob-link">the carvery</a></li>
+                                </ul>
+                            </li>
+                            <li class="position-relative"><a href="#" class="ff-PT-sans  d-flex  align-items-center font-weight-bold text-black text-decoration-none text-uppercase fs-12 h-35px d-block pl-3 hover-drob-link">more stuff</a></li>
+                            <li class="position-relative"><a href="#" class="ff-PT-sans  d-flex  align-items-center font-weight-bold text-black text-decoration-none text-uppercase fs-12 h-35px d-block pl-3 hover-drob-link">shortcodes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link d-flex  align-items-center text-uppercase text-white fs-14 ff-PT-sans font-weight-bold  px-3 mx-1 h-110px h-0  hover-link  h-lg-35px" href="#reservation">reservations</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- header-slider -->
+    <div id="home" class="container-fluid p-0 overflow-hidden">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="bd-example ">
+                    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner  ">
+                            <div class="carousel-item h-100vh active position-relative">
+                                <img src="img/kulinariya1.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                                <div class="carousel-caption bottom-lg-25">
+                                    <div class="ff-ubuntu text-white text-uppercase font-weight-bold fs-24 px-2 w-160px ls-5px mr-auto ml-auto  border-3px transform-Rotate-7deg bg-black  d-none d-lg-block">hungry<span class="color-yellow">?</span> </div>
+                                    <div class="ff-Alex-Brush text-white lh-100px fs-160 fs-md-60">Dine with us!</div>
+                                    <div class="ff-ubuntu text-white text-uppercase fs-12 d-none d-lg-block">A clean, single-page WordPress Theme for Restaurants</div>
+                                    <ul class="list-inline mt-100px mt-lg-30px">
+                                        <li class="list-inline-item" >
+                                            <a href="#" class="ff-PT-sans text-decoration-none  bg-dark rounded-circle text-white hover-icon  w-35px h-35px d-flex justify-content-center" data-toggle="tooltip" data-placement="top" title="Follow us on Facebook!">
+                                                <i class="fab fa-facebook-f align-self-center"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" class="ff-PT-sans text-decoration-none d-inline-block bg-dark rounded-circle text-white hover-icon  w-35px h-35px d-flex justify-content-center" data-toggle="tooltip" data-placement="top" title="Find us in Twitter!">
+                                                <i class="fab fa-twitter align-self-center"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" class="ff-PT-sans text-decoration-none d-inline-block bg-dark rounded-circle text-white hover-icon  w-35px h-35px d-flex justify-content-center" data-toggle="tooltip" data-placement="top" title="Pin us in Pinterrest!">
+                                                <i class="fab fa-pinterest align-self-center"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="carousel-item h-100vh">
+                                <img src="img/kulinariya2.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                                <div class="carousel-caption bottom-lg-25">
+                                    <div class="ff-ubuntu text-white text-uppercase font-weight-bold fs-24 px-2 w-160px ls-5px mr-auto ml-auto  border-3px transform-Rotate-7deg bg-black  d-none d-lg-block">hungry<span class="color-yellow">?</span> </div>
+                                    <div class="ff-Alex-Brush text-white lh-100px fs-160 fs-md-60">Dine with us!</div>
+                                    <div class="ff-ubuntu text-white text-uppercase fs-12 d-none d-lg-block">A clean, single-page WordPress Theme for Restaurants</div>
+                                    <ul class="list-inline mt-100px mt-lg-30px">
+                                        <li class="list-inline-item" >
+                                            <a href="#" class="ff-PT-sans text-decoration-none  bg-dark rounded-circle text-white hover-icon  w-35px h-35px d-flex justify-content-center" data-toggle="tooltip" data-placement="top" title="Follow us on Facebook!">
+                                                <i class="fab fa-facebook-f align-self-center"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" class="ff-PT-sans text-decoration-none d-inline-block bg-dark rounded-circle text-white hover-icon  w-35px h-35px d-flex justify-content-center" data-toggle="tooltip" data-placement="top" title="Find us in Twitter!">
+                                                <i class="fab fa-twitter align-self-center"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" class="ff-PT-sans text-decoration-none d-inline-block bg-dark rounded-circle text-white hover-icon  w-35px h-35px d-flex justify-content-center" data-toggle="tooltip" data-placement="top" title="Pin us in Pinterrest!">
+                                                <i class="fab fa-pinterest align-self-center"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="carousel-item h-100vh">
+                                <img src="img/kulinariya3.jpg" class="d-block w-100 h-100 object-fit-cover" alt="...">
+                                <div class="carousel-caption bottom-lg-25">
+                                    <div class="ff-ubuntu text-white text-uppercase font-weight-bold fs-24 px-2 w-160px ls-5px mr-auto ml-auto  border-3px transform-Rotate-7deg bg-black  d-none d-lg-block">hungry<span class="color-yellow">?</span> </div>
+                                    <div class="ff-Alex-Brush text-white lh-100px fs-160 fs-md-60">Dine with us!</div>
+                                    <div class="ff-ubuntu text-white text-uppercase fs-12 d-none d-lg-block">A clean, single-page WordPress Theme for Restaurants</div>
+                                    <ul class="list-inline mt-100px mt-lg-30px">
+                                        <li class="list-inline-item" >
+                                            <a href="#" class="ff-PT-sans text-decoration-none  bg-dark rounded-circle text-white hover-icon  w-35px h-35px d-flex justify-content-center" data-toggle="tooltip" data-placement="top" title="Follow us on Facebook!">
+                                                <i class="fab fa-facebook-f align-self-center"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" class="ff-PT-sans text-decoration-none d-inline-block bg-dark rounded-circle text-white hover-icon  w-35px h-35px d-flex justify-content-center" data-toggle="tooltip" data-placement="top" title="Find us in Twitter!">
+                                                <i class="fab fa-twitter align-self-center"></i>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" class="ff-PT-sans text-decoration-none d-inline-block bg-dark rounded-circle text-white hover-icon  w-35px h-35px d-flex justify-content-center" data-toggle="tooltip" data-placement="top" title="Pin us in Pinterrest!">
+                                                <i class="fab fa-pinterest align-self-center"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev d-none d-lg-block" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                            <div class="w-120px h-120px position-absolute top-50 right-0  bg-dark cursor-pointer text-white text-center rounded-circle hover-arrow  d-flex justify-content-center ">
+                                <i class="fas fa-chevron-left fs-30 align-self-center"></i>
+                            </div>
+                        </a>
+                        <a class="carousel-control-next d-none d-lg-block" href="#carouselExampleCaptions" role="button" data-slide="next">
+                            <div class="w-120px h-120px position-absolute top-50 left-0   bg-dark cursor-pointer text-white text-center rounded-circle  hover-arrow  d-flex justify-content-center">
+                                <i class="fas fa-chevron-right fs-30 align-self-center"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Us -->
+    <section id="about-us" class="bg-white position-relative overflow-hidden">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-12 text-center mt-100px">
+                    <h2 class="text-shadow fs-72 ff-Alex-Brush lh-35px mb-0">About Us</h2>
+                    <div class=" position-relative text-center transform-Rotate-7deg   border-3px  text-white text-uppercase d-inline-block mt-10  bg-black">whats our story?</div>
+                    <div class="my-5"><img src="img/Stars.png" alt=""></div>
+                </div>
+                <div class="col-md-5 position-relative mb-100px mb-lg-50px">
+                   <div class="position-relative ml-auto mr-auto h-370px   mw-370px    rounded-circle border-gray w-lg-270px h-lg-270px "><a href="#"><img src="img/asbaz.jpg" class="h-100 w-100 object-fit-cover  rounded-circle position-absolute" alt="">
+                       <div class="position-absolute w-150px h-150px   rounded-circle overflow-hidden border-gray   mln-50px  w-lg-100px h-lg-100px"><a href="#" ><img src="img/pizza" class="h-100 w-100 object-fit-cover" alt=""></a></div>
+                   </a></div>
+                </div>
+                <div class="col-md-7 text-center text-lg-left mb-100px mb-lg-50px">
+                   <h4 class="ff-ubuntu font-weight-bolder text-uppercase fs-22 mb-5">it started, quite simply, like this...</h4>
+                   <p class="ff-PT-sans mb-20 fs-16 font-weight-bold">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,  adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                   <p class="ff-PT-sans fs-16 ">Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et  magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,  pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec vitae <br> sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros <br> faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis <br> magna. Aenean commodo ligula eget dolor aenean massa.</p>
+                   <a href="#" class="btn btn-light text-decoration-none ff-ubuntu fs-13 text-uppercase font-weight-bold px-3 py-2 px-md-5 py-md-3">learn more</a>
+                   <a href="#" class="btn btn-dark text-decoration-none ff-ubuntu fs-13 text-uppercase font-weight-bold ml-2 px-3 py-2 px-md-5 py-md-3">see the menu!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Coments -->
+    <div class="container overflow-hidden">
+        <div class="row">
+            <div class="col-md-6 text-center  mb-100px mt-100px mb-md-50px mt-md-50px">
+                <div class="bg-dark coment  position-relative  text-white  fs-18 fs-15px-before-992px ml-auto mr-auto   mw-400px h-100px border-radius-5    pt-4">
+                    <p class="ff-PT-sans  w-90 ml-auto mr-auto "><i>"I strongly urge you to try the Chef’s Special, You’ll love it!”</i></p>
+                </div>
+                <div class="ml-auto mr-auto w-120px h-120px rounded-circle   cursor-pointer mt-5">
+                    <img src="img/coment2.jpg" class="h-100 w-100 object-fit-cover rounded-circle" alt="">
+                </div>
+                <div class="ff-ubuntu fs-12 text-white text-uppercase   mt-3">Christina from <span class="color-yellow">Stockton</span></div>
+            </div>
+
+            <div class="col-md-6 text-center mb-100px mt-100px mb-md-50px mt-md-50px">
+                <div class="bg-dark coment  position-relative  text-white   fs-18 fs-15px-before-992px ml-auto mr-auto   mw-400px h-100px border-radius-5   pt-4">
+                    <p class="ff-PT-sans w-60 ml-auto mr-auto "><i>“Great Food. Great Staff. Great Service. Good Times!”</i></p>
+                </div>
+                <div class="ml-auto mr-auto w-120px h-120px rounded-circle   cursor-pointer mt-5">
+                    <img src="img/coment.jpg" class="h-100 w-100 object-fit-cover rounded-circle" alt="">
+                </div>
+                <div class="ff-ubuntu fs-12 text-white text-uppercase  mt-3">John from <span class="color-yellow">Red Falls, Colorado</span></div>
+            </div>
+        </div>
+    </div>
+    <!-- Our menu -->
+    <section id="the-menu" class="bg-white position-relative overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mt-100px">
+                    <h2 class="text-shadow fs-72 ff-Alex-Brush lh-35px mb-0">Our menu</h2>
+                    <div class=" position-relative text-center transform-Rotate-7deg   border-3px  text-white text-uppercase d-inline-block mt-10  bg-black">whats our story?</div>
+                    <div class="my-5"><img src="img/Stars.png" alt=""></div>
+                </div>
+                <!-- Starters & Sides -->
+                <div class="col-lg-6 text-center text-lg-left mb-0 mb-lg-5 pl-0 px-sm-3">
+                    <p class="ff-ubuntu font-weight-bold fs-18 text-uppercase mt-3 mb-5 mt-lg-5">Starters & Sides</p>
+                    <div class="col-md-12 d-flex  mb-4 p-0 px-sm-3">
+                        <div class="col-md-3 col-sm-2 d-flex justify-content-center p-0">
+                            <div class="w-100px h-100px w-sm-80px h-sm-80px rounded-circle border-gray  position-relative ">
+                                <!-- <a href="#"  class="position-absolute  w-35px h-35px w-sm-25px h-sm-25px  mt-3 mt-sm-4 mln-50px rounded-circle bg-yellow text-white  d-flex justify-content-center right-sm-0 mrn-sm-40px"  data-toggle="tooltip" data-placement="top" title="Chef’s Speciality!">
+                                    <i class="fas fa-star align-self-center fs-sm-13"></i>
+                                </a> -->
+                                <a href="img/ourmenu1.jpg" class="our-menu"  data-fancybox="gallery1" data-caption="Garlic Bread - $6.95" >
+                                    <div class="position-absolute   w-100 h-100  bg-dark  rounded-circle  text-white  d-flex justify-content-center opacity-0 transition-03"><i class="fas fa-search-plus  d-flex  align-items-center"></i></div>
+                                    <img src="img/ourmenu1.jpg" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-10 p-0 px-sm-3">
+                            <div class="dots d-flex justify-content-between mt-1 mb-3">
+                                <p class="ff-ubuntu font-weight-bold fs-14 fs-sm-13 text-uppercase m-0 pr-1 bg-white">carlic bread</p>
+                                <p class="ff-ubuntu font-weight-bold fs-14 fs-sm-13 text-uppercase m-0 pl-1 bg-white">$6.95</p>
+                            </div>
+                            <p class="ff-PT-sans fs-15 fs-sm-13 text-secondary">Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12   d-flex mb-4 p-0 px-sm-3">
+                        <div class="col-md-3 col-sm-2 d-flex justify-content-center p-0">
+                            <div class="w-100px h-100px w-sm-80px h-sm-80px rounded-circle border-gray  position-relative ">
+                                <!-- <a href="#"  class="position-absolute   w-35px h-35px w-sm-25px h-sm-25px mt-3 mt-sm-4 mln-50px rounded-circle bg-yellow text-white  d-flex justify-content-center right-sm-0 mrn-sm-40px"  data-toggle="tooltip" data-placement="top" title="Chef’s Speciality!">
+                                    <i class="fas fa-star align-self-center fs-sm-13"></i>
+                                </a> -->
+                                <a href="img/ourmenu2.jpg" class="our-menu "  data-fancybox="gallery1" data-caption="Mixed Salad - $4.50" >
+                                    <div class="position-absolute   w-100 h-100  bg-dark  rounded-circle  text-white  d-flex justify-content-center opacity-0 transition-03"><i class="fas fa-search-plus  d-flex  align-items-center"></i></div>
+                                    <img src="img/ourmenu2.jpg" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-10 p-0 px-sm-3">
+                            <div class="dots d-flex justify-content-between mt-1 mb-3">
+                                <p class="ff-ubuntu font-weight-bold fs-14 fs-sm-13 text-uppercase m-0 pr-1 bg-white">mixed salad</p>
+                                <p class="ff-ubuntu font-weight-bold fs-14 fs-sm-13 text-uppercase m-0 pl-1 bg-white">$4.50</p>
+                            </div>
+                            <p class="ff-PT-sans fs-15 fs-sm-13 text-secondary">Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 d-flex mb-4 p-0 px-sm-3">
+                        <div class="col-md-3 col-sm-2 d-flex justify-content-center p-0">
+                            <div class="w-100px h-100px w-sm-80px h-sm-80px rounded-circle border-gray  position-relative ">
+                                <!-- <a href="#"  class="position-absolute   w-35px h-35px w-sm-25px h-sm-25px mt-3 mt-sm-4 mln-50px rounded-circle bg-yellow text-white  d-flex justify-content-center right-sm-0 mrn-sm-40px"  data-toggle="tooltip" data-placement="top" title="Chef’s Speciality!">
+                                    <i class="fas fa-star align-self-center fs-sm-13"></i>
+                                </a> -->
+                                <a href="img/ourmenu3.jpg" class="our-menu "  data-fancybox="gallery1" data-caption="BBQ Chicken Wings - $8.65" >
+                                    <div class="position-absolute   w-100 h-100  bg-dark  rounded-circle  text-white  d-flex justify-content-center opacity-0 transition-03"><i class="fas fa-search-plus  d-flex  align-items-center"></i></div>
+                                    <img src="img/ourmenu3.jpg" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-10 p-0 px-sm-3">
+                            <div class="dots d-flex justify-content-between mt-1 mb-3">
+                                <p class="ff-ubuntu font-weight-bold fs-14 fs-sm-13 text-uppercase m-0 pr-1 bg-white">BBQ Chicken Wings</p>
+                                <p class="ff-ubuntu font-weight-bold fs-14 fs-sm-13 text-uppercase m-0 pl-1 bg-white">$8.65</p>
+                            </div>
+                            <p class="ff-PT-sans fs-15 fs-sm-13 text-secondary">Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- main dishes -->
+                <div class="col-lg-6 text-center text-lg-left mb-0 mb-lg-5 pl-0 px-sm-3">
+                    <p class="ff-ubuntu font-weight-bold fs-18 text-uppercase mt-3 mt-lg-5 mb-5">main dishes</p>
+                    <div class="col-md-12 d-flex  mb-4 p-0 px-sm-3">
+                        <div class="col-md-3 col-sm-2 d-flex justify-content-center p-0">
+                            <div class="w-100px h-100px w-sm-80px h-sm-80px rounded-circle border-gray  position-relative ">
+                                <!-- <a href="#"  class="position-absolute  w-35px h-35px w-sm-25px h-sm-25px  mt-3 mt-sm-4 mln-50px rounded-circle bg-yellow text-white  d-flex justify-content-center right-sm-0 mrn-sm-40px"  data-toggle="tooltip" data-placement="top" title="Chef’s Speciality!">
+                                    <i class="fas fa-star align-self-center fs-sm-13"></i>
+                                </a> -->
+                                <a href="img/ourmenu4.jpg" class="our-menu"  data-fancybox="gallery1" data-caption="Meat Feast Pizza - $17.95" >
+                                    <div class="position-absolute   w-100 h-100  bg-dark  rounded-circle  text-white  d-flex justify-content-center opacity-0 transition-03"><i class="fas fa-search-plus  d-flex  align-items-center"></i></div>
+                                    <img src="img/ourmenu4.jpg" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-10 p-0 px-sm-3">
+                            <div class="dots d-flex justify-content-between mt-1 mb-3">
+                                <p class="ff-ubuntu font-weight-bold fs-14 fs-sm-13 text-uppercase m-0 pr-1 bg-white">Meat Feast Pizza</p>
+                                <p class="ff-ubuntu font-weight-bold fs-14 fs-sm-13 text-uppercase m-0 pl-1 bg-white">$17.95</p>
+                            </div>
+                            <p class="ff-PT-sans fs-15 fs-sm-13 text-secondary">Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12   d-flex mb-4 p-0 px-sm-3">
+                        <div class="col-md-3 col-sm-2 d-flex justify-content-center p-0">
+                            <div class="w-100px h-100px w-sm-80px h-sm-80px rounded-circle border-gray  position-relative ">
+                                <a href="#"  class="position-absolute   w-35px h-35px w-sm-25px h-sm-25px mt-3 mt-sm-4 mln-50px rounded-circle bg-yellow text-white  d-flex justify-content-center right-sm-0 mrn-sm-40px"  data-toggle="tooltip" data-placement="top" title="Chef’s Speciality!">
+                                    <i class="fas fa-star align-self-center fs-sm-13"></i>
+                                </a>
+                                <a href="img/ourmenu5.jpg" class="our-menu "  data-fancybox="gallery1" data-caption="Chicken Tikka Masala - $16.50" >
+                                    <div class="position-absolute   w-100 h-100  bg-dark  rounded-circle  text-white  d-flex justify-content-center opacity-0 transition-03"><i class="fas fa-search-plus  d-flex  align-items-center"></i></div>
+                                    <img src="img/ourmenu5.jpg" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-10 p-0 px-sm-3">
+                            <div class="dots d-flex justify-content-between mt-1 mb-3">
+                                <p class="ff-ubuntu font-weight-bold fs-14 fs-sm-13 text-uppercase m-0 pr-1 bg-white">Chicken Tikka Masala</p>
+                                <p class="ff-ubuntu font-weight-bold fs-14 fs-sm-13 text-uppercase m-0 pl-1 bg-white">$16.50</p>
+                            </div>
+                            <p class="ff-PT-sans fs-15 fs-sm-13 text-secondary">Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 d-flex mb-4 p-0 px-sm-3">
+                        <div class="col-md-3 col-sm-2 d-flex justify-content-center p-0">
+                            <div class="w-100px h-100px w-sm-80px h-sm-80px rounded-circle border-gray  position-relative ">
+                                <!-- <a href="#"  class="position-absolute   w-35px h-35px w-sm-25px h-sm-25px mt-3 mt-sm-4 mln-50px rounded-circle bg-yellow text-white  d-flex justify-content-center right-sm-0 mrn-sm-40px"  data-toggle="tooltip" data-placement="top" title="Chef’s Speciality!">
+                                    <i class="fas fa-star align-self-center fs-sm-13"></i>
+                                </a> -->
+                                <a href="img/ourmenu6.jpg" class="our-menu "  data-fancybox="gallery1" data-caption="Spicy Meatballs - $14.85" >
+                                    <div class="position-absolute   w-100 h-100  bg-dark  rounded-circle  text-white  d-flex justify-content-center opacity-0 transition-03"><i class="fas fa-search-plus  d-flex  align-items-center"></i></div>
+                                    <img src="img/ourmenu6.jpg" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-10 p-0 px-sm-3">
+                            <div class="dots d-flex justify-content-between mt-1 mb-3">
+                                <p class="ff-ubuntu font-weight-bold fs-14 fs-sm-13 text-uppercase m-0 pr-1 bg-white">Spicy Meatballs</p>
+                                <p class="ff-ubuntu font-weight-bold fs-14 fs-sm-13 text-uppercase m-0 pl-1 bg-white">$14.85</p>
+                            </div>
+                            <p class="ff-PT-sans fs-15 fs-sm-13 text-secondary">Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Deserts -->
+                <div class="col-lg-6 text-center text-lg-left mb-0 mb-lg-5 pl-0 px-sm-3">
+                    <p class="ff-ubuntu font-weight-bold fs-18 text-uppercase mt-3 mt-lg-5 mb-5">Desserts</p>
+                    <div class="col-md-12   d-flex mb-4 p-0 px-sm-3">
+                        <div class="col-md-3 col-sm-2 d-flex justify-content-center p-0">
+                            <div class="w-100px h-100px w-sm-80px h-sm-80px rounded-circle border-gray  position-relative ">
+                                <!-- <a href="#"  class="position-absolute   w-35px h-35px w-sm-25px h-sm-25px mt-3 mt-sm-4 mln-50px rounded-circle bg-yellow text-white  d-flex justify-content-center right-sm-0 mrn-sm-40px"  data-toggle="tooltip" data-placement="top" title="Chef’s Speciality!">
+                                    <i class="fas fa-star align-self-center fs-sm-13"></i>
+                                </a> -->
+                                <a href="img/ourmenu7.jpg" class="our-menu "  data-fancybox="gallery1" data-caption="Chocolate Fudgecake - $8.50" >
+                                    <div class="position-absolute   w-100 h-100  bg-dark  rounded-circle  text-white  d-flex justify-content-center opacity-0 transition-03"><i class="fas fa-search-plus  d-flex  align-items-center"></i></div>
+                                    <img src="img/ourmenu7.jpg" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-10 p-0 px-sm-3">
+                            <div class="dots d-flex justify-content-between mt-1 mb-3">
+                                <p class="ff-ubuntu font-weight-bold fs-14 fs-sm-13 text-uppercase m-0 pr-1 bg-white">Chocolate Fudgecake</p>
+                                <p class="ff-ubuntu font-weight-bold fs-14 fs-sm-13 text-uppercase m-0 pl-1 bg-white">$8.50</p>
+                            </div>
+                            <p class="ff-PT-sans fs-15 fs-sm-13 text-secondary">Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 d-flex mb-4 p-0 px-sm-3">
+                        <div class="col-md-3 col-sm-2 d-flex justify-content-center p-0">
+                            <div class="w-100px h-100px w-sm-80px h-sm-80px rounded-circle border-gray  position-relative ">
+                                <!-- <a href="#"  class="position-absolute   w-35px h-35px w-sm-25px h-sm-25px mt-3 mt-sm-4 mln-50px rounded-circle bg-yellow text-white  d-flex justify-content-center right-sm-0 mrn-sm-40px"  data-toggle="tooltip" data-placement="top" title="Chef’s Speciality!">
+                                    <i class="fas fa-star align-self-center fs-sm-13"></i>
+                                </a> -->
+                                <a href="img/ourmenu8.jpg" class="our-menu "  data-fancybox="gallery1" data-caption="Cappucino - $4.25" >
+                                    <div class="position-absolute   w-100 h-100  bg-dark  rounded-circle  text-white  d-flex justify-content-center opacity-0 transition-03"><i class="fas fa-search-plus  d-flex  align-items-center"></i></div>
+                                    <img src="img/ourmenu8.jpg" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-10 p-0 px-sm-3">
+                            <div class="dots d-flex justify-content-between mt-1 mb-3">
+                                <p class="ff-ubuntu font-weight-bold fs-14 fs-sm-13 text-uppercase m-0 pr-1 bg-white">cappucino</p>
+                                <p class="ff-ubuntu font-weight-bold fs-14 fs-sm-13 text-uppercase m-0 pl-1 bg-white">$4.25</p>
+                            </div>
+                            <p class="ff-PT-sans fs-15 fs-sm-13 text-secondary">Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drinks -->
+                <div class="col-lg-6 text-center text-lg-left mb-5 pl-0 px-sm-3">
+                    <p class="ff-ubuntu font-weight-bold fs-18 text-uppercase mt-3 mt-lg-5 mb-5">drinks</p>
+                    <div class="col-md-12   d-flex mb-4 p-0 px-sm-3">
+                        <div class="col-md-3 col-sm-2 d-flex justify-content-center p-0">
+                            <div class="w-100px h-100px w-sm-80px h-sm-80px rounded-circle border-gray  position-relative ">
+                                <!-- <a href="#"  class="position-absolute   w-35px h-35px w-sm-25px h-sm-25px mt-3 mt-sm-4 mln-50px rounded-circle bg-yellow text-white  d-flex justify-content-center right-sm-0 mrn-sm-40px"  data-toggle="tooltip" data-placement="top" title="Chef’s Speciality!">
+                                    <i class="fas fa-star align-self-center fs-sm-13"></i>
+                                </a> -->
+                                <a href="img/ourmenu9.jpg" class="our-menu "  data-fancybox="gallery1" data-caption="Premium Beer - $5.80">
+                                    <div class="position-absolute   w-100 h-100  bg-dark  rounded-circle  text-white  d-flex justify-content-center opacity-0 transition-03"><i class="fas fa-search-plus  d-flex  align-items-center"></i></div>
+                                    <img src="img/ourmenu9.jpg" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-10 p-0 px-sm-3">
+                            <div class="dots d-flex justify-content-between mt-1 mb-3">
+                                <p class="ff-ubuntu font-weight-bold fs-14 fs-sm-13 text-uppercase m-0 pr-1 bg-white">Premium Beer</p>
+                                <p class="ff-ubuntu font-weight-bold fs-14 fs-sm-13 text-uppercase m-0 pl-1 bg-white">$5.80</p>
+                            </div>
+                            <p class="ff-PT-sans fs-15 fs-sm-13 text-secondary">Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 d-flex mb-4 p-0 px-sm-3">
+                        <div class="col-md-3 col-sm-2 d-flex justify-content-center p-0">
+                            <div class="w-100px h-100px w-sm-80px h-sm-80px rounded-circle border-gray  position-relative ">
+                                <!-- <a href="#"  class="position-absolute   w-35px h-35px w-sm-25px h-sm-25px mt-3 mt-sm-4 mln-50px rounded-circle bg-yellow text-white  d-flex justify-content-center right-sm-0 mrn-sm-40px"  data-toggle="tooltip" data-placement="top" title="Chef’s Speciality!">
+                                    <i class="fas fa-star align-self-center fs-sm-13"></i>
+                                </a> -->
+                                <a href="img/ourmenu10.jpg" class="our-menu "  data-fancybox="gallery1" data-caption="Sparkling White Wine - $6.25" >
+                                    <div class="position-absolute   w-100 h-100  bg-dark  rounded-circle  text-white  d-flex justify-content-center opacity-0 transition-03"><i class="fas fa-search-plus  d-flex  align-items-center"></i></div>
+                                    <img src="img/ourmenu10.jpg" alt="" class="w-100 h-100 object-fit-cover rounded-circle">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-10 p-0 px-sm-3">
+                            <div class="dots d-flex justify-content-between mt-1 mb-3">
+                                <p class="ff-ubuntu font-weight-bold fs-14 fs-sm-13 text-uppercase m-0 pr-1 bg-white">Sparkling White Wine</p>
+                                <p class="ff-ubuntu font-weight-bold fs-14 fs-sm-13 text-uppercase m-0 pl-1 bg-white">$6.25</p>
+                            </div>
+                            <p class="ff-PT-sans fs-15 fs-sm-13 text-secondary">Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- I cook with wine -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <figure class=" mt-100px mb-50px"><img src="img/Stars.png" alt=""></figure>
+                    <p class="ff-ubuntu font-weight-bold text-white text-uppercase fs-36 fs-md-26px">I cook with wine.</p> 
+                    <p class="ff-ubuntu font-weight-bold text-white text-uppercase fs-36 fs-md-26px">Sometimes I even <span class="color-yellow">add</span> it to the food!</p>
+                    <figure class=" mb-100px mb-lg-50px mt-50px"><img src="img/Stars.png" alt=""></figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Staff -->
+    <section id="our-team" class="bg-white position-relative overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mt-100px">
+                    <h2 class="text-shadow fs-72 ff-Alex-Brush lh-35px mb-0">Our Staff</h2>
+                    <div class=" position-relative text-center transform-Rotate-7deg   border-3px  text-white text-uppercase d-inline-block mt-10  bg-black">whats our story?</div>
+                    <div class="my-5"><img src="img/Stars.png" alt=""></div>
+                </div>
+
+                <div class="col-lg-4 text-center">
+                    <div class="staff h-250px w-250px ml-auto mr-auto border-gray rounded-circle position-relative">
+                        <div class="show-icons">
+                            <div class="opacity-0 position-absolute  w-100 h-100 text-center bg-dark rounded-circle  text-white transition-03 cursor-pointer  d-flex justify-content-center">
+                                <a href="#" class="bg-dark text-decoration-none text-white hover-icon rounded-circle w-35px h-35px border mx-1 border-white d-flex justify-content-center align-self-center">
+                                    <i class="fab d-flex align-self-center fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="bg-dark text-decoration-none text-white hover-icon rounded-circle w-35px h-35px border mx-1 border-white d-flex justify-content-center align-self-center">
+                                    <i class="fab d-flex align-self-center fa-twitter"></i>
+                                </a>
+                                <a href="#" class="bg-dark text-decoration-none text-white hover-icon rounded-circle w-35px h-35px border mx-1 border-white d-flex justify-content-center align-self-center">
+                                    <i class="fab d-flex align-self-center fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="img/our_staff1.jpg" class="h-100 w-100 object-fit-cover rounded-circle"  alt="">
+                    </div>
+                    <h4 class="ff-ubuntu ff-PT-sans fs-16 text-uppercase font-weight-bolder mt-4">John Doggett</h4>
+                    <h6 class="ff-ubuntu ff-PT-sans color-yellow fs-12">Head Chef</h6>
+                    <p class="ff-PT-sans fs-16 mt-4">
+                        Nullam quis ante. Etiam sit amet orci eget eros
+                        faucibus tincidunt. Duis leo. Sed fringilla
+                        mauris sit amet nibh. Donec sodales sagittis
+                        magna. Aenean commodo ligula.
+                    </p>
+                    <hr class="d-lg-none">
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="staff h-250px w-250px ml-auto mr-auto border-gray rounded-circle position-relative">
+                        <div class="show-icons">
+                            <div class="opacity-0 position-absolute  w-100 h-100 text-center bg-dark rounded-circle  text-white transition-03 cursor-pointer  d-flex justify-content-center">
+                                <a href="#" class="bg-dark text-decoration-none text-white hover-icon rounded-circle w-35px h-35px border mx-1 border-white d-flex justify-content-center align-self-center">
+                                    <i class="fab d-flex align-self-center fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="bg-dark text-decoration-none text-white hover-icon rounded-circle w-35px h-35px border mx-1 border-white d-flex justify-content-center align-self-center">
+                                    <i class="fab d-flex align-self-center fa-twitter"></i>
+                                </a>
+                                <a href="#" class="bg-dark text-decoration-none text-white hover-icon rounded-circle w-35px h-35px border mx-1 border-white d-flex justify-content-center align-self-center">
+                                    <i class="fab d-flex align-self-center fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="img/our_staff2.jpg" class="h-100 w-100 object-fit-cover rounded-circle"  alt="">
+                    </div>
+                    <h4 class="ff-ubuntu ff-PT-sans fs-16 text-uppercase font-weight-bolder mt-4">Jeffrey Spender</h4>
+                    <h6 class="ff-ubuntu ff-PT-sans color-yellow fs-12">Head Barman</h6>
+                    <p class="ff-PT-sans fs-16 mt-4">
+                        Nullam quis ante. Etiam sit amet orci eget eros
+                        faucibus tincidunt. Duis leo. Sed fringilla
+                        mauris sit amet nibh. Donec sodales sagittis
+                        magna. Aenean commodo ligula.
+                    </p>
+                    <hr class="d-lg-none">
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="staff h-250px w-250px ml-auto mr-auto border-gray rounded-circle position-relative">
+                        <div class="show-icons">
+                            <div class="opacity-0 position-absolute  w-100 h-100 text-center bg-dark rounded-circle  text-white transition-03 cursor-pointer  d-flex justify-content-center">
+                                <a href="#" class="bg-dark text-decoration-none text-white hover-icon rounded-circle w-35px h-35px border mx-1 border-white d-flex justify-content-center align-self-center">
+                                    <i class="fab d-flex align-self-center fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="bg-dark text-decoration-none text-white hover-icon rounded-circle w-35px h-35px border mx-1 border-white d-flex justify-content-center align-self-center">
+                                    <i class="fab d-flex align-self-center fa-twitter"></i>
+                                </a>
+                                <a href="#" class="bg-dark text-decoration-none text-white hover-icon rounded-circle w-35px h-35px border mx-1 border-white d-flex justify-content-center align-self-center">
+                                    <i class="fab d-flex align-self-center fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <img src="img/our_staff3.jpg" class="h-100 w-100 object-fit-cover rounded-circle"  alt="">
+                    </div>
+                    <h4 class="ff-ubuntu ff-PT-sans fs-16 text-uppercase font-weight-bolder mt-4">Monica Reyes</h4>
+                    <h6 class="ff-ubuntu ff-PT-sans color-yellow fs-12">Waitress</h6>
+                    <p class="ff-PT-sans fs-16 mt-4">
+                        Nullam quis ante. Etiam sit amet orci eget eros
+                        faucibus tincidunt. Duis leo. Sed fringilla
+                        mauris sit amet nibh. Donec sodales sagittis
+                        magna. Aenean commodo ligula.
+                    </p>
+                    <hr class="d-lg-none">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Are you Enjoying the theme? -->
+    <div class="container overflow-hidden">
+        <div class="row">
+            <div class="col-md-8 text-lg-left text-center   mt-100px mb-100px mb-md-0 mt-md-50px">
+                <h3 class="ff-ubuntu font-italic ff-PT-sans fs-36 fs-md-26px text-uppercase text-white">Are you Enjoying the theme?</h3>
+                <h6 class="ff-ubuntu font-italic ff-PT-sans fs-16 text-white">Its a <span class="color-yellow">Fine Dining</span> Experience.</h6>
+            </div>
+            <div class="col-md-4 text-center mt-100px  mb-100px mb-md-50px mt-md-50px">
+                <a href="#" class="btn btn-light ff-ubuntu text-uppercase font-weight-bolder fs-13 px-3 py-2 px-md-5 py-md-3">Buy it Now!</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Gallery -->
+    <section id="gallery" class="bg-white position-relative overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mt-100px">
+                    <h2 class="text-shadow fs-72 ff-Alex-Brush lh-35px mb-0">The Gallery</h2>
+                    <div class=" position-relative text-center transform-Rotate-7deg   border-3px  text-white text-uppercase d-inline-block mt-10  bg-black">whats our story?</div>
+                    <div class="my-5"><img src="img/Stars.png" alt=""></div>
+                </div>
+            </div>
+            <div class="grid w-100 mb-100px mb-lg-50px">
+                <div class="grid-item  h-225px w-23 w-lg-50 w-md-100  mt-4 ">
+                    <a href="img/the_gallery1.jpg" class="gallery"  data-fancybox="the-gallery" data-caption="" >
+                        <div class="position-absolute   w-100 h-100  bg-yellow    text-white  d-flex justify-content-center opacity-0  transition-03"><i class="fas fa-search-plus  d-flex  align-items-center"></i></div>
+                        <img src="img/the_gallery1.jpg" alt="" class="w-100 h-100 object-fit-cover"> 
+                    </a>
+                </div>
+                <div class="grid-item  h-225px w-23 w-lg-50 w-md-100  mt-4 ">
+                    <a href="img/the_gallery2.jpg" class="gallery"  data-fancybox="the-gallery" data-caption="" >
+                        <div class="position-absolute   w-100 h-100  bg-yellow    text-white  d-flex justify-content-center opacity-0  transition-03"><i class="fas fa-search-plus  d-flex  align-items-center"></i></div>
+                        <img src="img/the_gallery2.jpg" alt="" class="w-100 h-100 object-fit-cover"> 
+                    </a>
+                </div>
+                <div class="grid-item  h-225px w-23 w-lg-50 w-md-100  mt-4">
+                    <a href="img/the_gallery3.jpg" class="gallery"  data-fancybox="the-gallery" data-caption="" >
+                        <div class="position-absolute   w-100 h-100  bg-yellow    text-white  d-flex justify-content-center opacity-0  transition-03"><i class="fas fa-search-plus  d-flex  align-items-center"></i></div>
+                        <img src="img/the_gallery3.jpg" alt="" class="w-100 h-100 object-fit-cover"> 
+                    </a>
+                </div>
+                <div class="grid-item  h-475px w-23 w-lg-50 w-md-100  mt-4">
+                    <a href="img/the_gallery4.jpg" class="gallery"  data-fancybox="the-gallery" data-caption="" >
+                        <div class="position-absolute   w-100 h-100  bg-yellow    text-white  d-flex justify-content-center opacity-0  transition-03"><i class="fas fa-search-plus  d-flex  align-items-center"></i></div>
+                        <img src="img/the_gallery4.jpg" alt="" class="w-100 h-100 object-fit-cover"> 
+                    </a>
+                </div>
+                <div class="grid-item  h-225px w-46 w-lg-50 w-md-100 mt-4">
+                    <a href="img/the_gallery5.jpg" class="gallery"  data-fancybox="the-gallery" data-caption="" >
+                        <div class="position-absolute   w-100 h-100  bg-yellow    text-white  d-flex justify-content-center opacity-0  transition-03"><i class="fas fa-search-plus  d-flex  align-items-center"></i></div>
+                        <img src="img/the_gallery5.jpg" alt="" class="w-100 h-100 object-fit-cover"> 
+                    </a>
+                </div>
+                <div class="grid-item  h-225px w-23 w-lg-50 w-md-100 mt-4">
+                    <a href="img/the_gallery6.jpg" class="gallery"  data-fancybox="the-gallery" data-caption="" >
+                        <div class="position-absolute   w-100 h-100  bg-yellow    text-white  d-flex justify-content-center opacity-0  transition-03"><i class="fas fa-search-plus  d-flex  align-items-center"></i></div>
+                        <img src="img/the_gallery6.jpg" alt="" class="w-100 h-100 object-fit-cover"> 
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Blog -->
+
+    <section id="our-blog" class="overflow-hidden  position-relative">
+        <div class="container">
+            <div class="row mb-100px mb-lg-50px">
+                <div class="col-md-12 text-center mt-100px">
+                    <h2 class="text-shadow fs-72 ff-Alex-Brush lh-35px mb-0">Our Blog</h2>
+                    <div class=" position-relative text-center transform-Rotate-7deg   border-3px  text-white text-uppercase d-inline-block mt-10  bg-black">whats our story?</div>
+                    <div class="my-5"><img src="img/Stars.png" alt=""></div>
+                </div>
+                <div class="col-lg-6 d-block d-lg-flex mb-3">
+                    <div class="col-lg-6  h-260px  p-0 ">
+                        <a href="#" class="show-link">
+                            <div class="position-absolute  w-100 h-100 text-center bg-dark fs-25   text-white transition-03 d-flex justify-content-center opacity-0">
+                                <i class="fas fa-link transform-Rotate-100deg d-flex align-self-center"></i>
+                            </div>
+                            <img src="img/the_gallery6.jpg" class="w-100 h-100 object-fit-cover" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-6  h-260px p-0   bg-white text-center p-5">
+                        <div class="position-absolute  lh-260px  text-white fs-36 mln-60px d-lg-block d-none"><i class="fas fa-caret-left "></i></div>
+                        <p class="mb-3"><a href="#" class="ff-ubuntu  font-weight-bolder fs-12 text-uppercase text-secondary hover-yellow text-decoration-none">25 November, 2014</a></p>
+                        <hr>
+                        <p class="mt-3 mb-0 lh-15px   ml-auto mr-auto"><a href="#" class="ff-ubuntu fs-16 text-uppercase text-black font-weight-bolder hover-yellow  text-decoration-none ">Latest Recipes just in!</a></p>
+                        <hr>
+                        <p class="mt-3"><a href="#" class="ff-ubuntu  font-weight-bolder fs-12 text-uppercase text-black hover-yellow  text-decoration-none"><span class="text-secondary">By</span> John Doggett</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-block d-lg-flex mb-3">
+                    <div class="col-lg-6  h-260px  p-0 ">
+                        <a href="#" class="show-link">
+                            <div class="position-absolute  w-100 h-100 text-center bg-dark fs-25   text-white transition-03 d-flex justify-content-center opacity-0">
+                                <i class="fas fa-link transform-Rotate-100deg d-flex align-self-center"></i>
+                            </div>
+                            <img src="img/our_staff4.jpg" class="w-100 h-100 object-fit-cover" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-6  h-260px p-0   bg-white text-center p-5">
+                        <div class="position-absolute  lh-260px  text-white fs-36 mln-60px d-lg-block d-none"><i class="fas fa-caret-left "></i></div>
+                        <div class="">
+                            <h6 class="mb-3"><a href="#" class="ff-ubuntu  font-weight-bolder fs-12 text-uppercase text-secondary hover-yellow text-decoration-none">12 November, 2014</a></h6>
+                            <hr>
+                            <h3 class="mt-3 mb-0 lh-15px   ml-auto mr-auto"><a href="#" class="ff-ubuntu fs-16 text-uppercase text-black font-weight-bolder hover-yellow  text-decoration-none ">new recruits have arrived!</a></h3>
+                            <hr>
+                            <h6 class="mt-3"><a href="#" class="ff-ubuntu  font-weight-bolder fs-12 text-uppercase text-black hover-yellow  text-decoration-none"><span class="text-secondary">By</span> derwood spinks</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-block d-lg-flex mb-3">
+                    <div class="col-lg-6  h-260px  p-0 ">
+                        <a href="#" class="show-link">
+                            <div class="position-absolute  w-100 h-100 text-center bg-dark fs-25   text-white transition-03 d-flex justify-content-center opacity-0">
+                                <i class="fas fa-link transform-Rotate-100deg d-flex align-self-center"></i>
+                            </div>
+                            <img src="img/kulinariya6.jpg" class="w-100 h-100 object-fit-cover" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-6  h-260px p-0   bg-white text-center p-5">
+                        <div class="position-absolute  lh-260px  text-white fs-36 mln-60px d-lg-block d-none"><i class="fas fa-caret-left "></i></div>
+                        <div class="">
+                            <h6 class="mb-3"><a href="#" class="ff-ubuntu  font-weight-bolder fs-12 text-uppercase text-secondary hover-yellow text-decoration-none">31 october, 2014</a></h6>
+                            <hr>
+                            <h3 class="mt-3 mb-0 lh-15px   ml-auto mr-auto"><a href="#" class="ff-ubuntu fs-16 text-uppercase text-black font-weight-bolder hover-yellow  text-decoration-none ">top baking tips</a></h3>
+                            <hr>
+                            <h6 class="mt-3"><a href="#" class="ff-ubuntu  font-weight-bolder fs-12 text-uppercase text-black hover-yellow  text-decoration-none"><span class="text-secondary">By</span> jamie ramsay</a></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-block d-lg-flex mb-3">
+                    <div class="col-lg-6   h-260px  p-0 ">
+                        <a href="#" class="show-link">
+                            <div class="position-absolute  w-100 h-100 text-center bg-dark fs-25   text-white transition-03 d-flex justify-content-center opacity-0">
+                                <i class="fas fa-link transform-Rotate-100deg d-flex align-self-center"></i>
+                            </div>
+                            <img src="img/kulinariya7.jpg" class="w-100 h-100 object-fit-cover" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-6  h-260px p-0   bg-white text-center  p-5">
+                        <div class="position-absolute  lh-260px  text-white fs-36 mln-60px d-lg-block d-none"><i class="fas fa-caret-left "></i></div>
+                        <div class="">
+                            <h6 class="mb-3"><a href="#" class="ff-ubuntu  font-weight-bolder fs-12 text-uppercase text-secondary hover-yellow text-decoration-none">20 october, 2014</a></h6>
+                            <hr>
+                            <h3 class="mt-3 mb-0 lh-15px   ml-auto mr-auto"><a href="#" class="ff-ubuntu fs-16 text-uppercase text-black font-weight-bolder hover-yellow  text-decoration-none ">all your eggs are belong to us</a></h3>
+                            <hr>
+                            <h6 class="mt-3"><a href="#" class="ff-ubuntu  font-weight-bolder fs-12 text-uppercase text-black hover-yellow  text-decoration-none"><span class="text-secondary">By</span> John Doggett</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 d-flex justify-content-center mt-5">
+                    <a href="#" class="btn btn-dark ff-ubuntu font-weight-bold fs-13 text-uppercase px-4 py-2">view the blog</a>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+     <!-- Reservation -->
+
+    <section id="reservation" class="bg-white position-relative overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center mt-100px mb-4">
+                    <h2 class="text-shadow fs-72 ff-Alex-Brush lh-35px mb-0">Reservation</h2>
+                    <div class=" position-relative text-center transform-Rotate-7deg   border-3px  text-white text-uppercase d-inline-block mt-10  bg-black">whats our story?</div>
+                    <div class="my-5"><img src="img/Stars.png" alt=""></div>
+
+                    <h3 class="ff-ubuntu font-weight-bold fs-24 text-uppercase booking ">booking form</h3>
+                </div>
+                <div class="offset-md-2 col-md-8 offset-md-2 text-center  mb-100px mb-md-50px ">
+                    <form action="/" method="GET"  class="form-control-plaintext" >
+                        <div class="col-lg-12 d-md-flex d-block p-0">
+                            <div class="col-lg-6">
+                                <div class="form-group  ">
+                                    <input   type="text" placeholder="Name of your party*" name="name" class="required  form-control   ff-PT-sans  fs-14 w-100 pl-20  without-contour bg-gray    h-45px   font-weight-bolder  cursor-pointer "  >
+                                </div>
+                                <div class="form-group">
+                                    <input   name="email"   placeholder="Enter your email adress*" type="text"    class="required  form-control ff-PT-sans fs-14 w-100 pl-20   outline-none border-none   bg-gray h-45px  font-weight-bolder   cursor-pointer"   >
+                                </div>
+                                <div class="form-group">
+                                    <select   name="use_type1"   class="required ff-PT-sans  fs-14 w-100 pl-4  form-control   bg-gray h-45px  font-weight-bolder outline-none border-none  cursor-pointer" >
+                                        <option value="">How many are coming*</option>
+                                        <option  value="1">1</option>
+                                        <option  value="2">2</option>
+                                        <option  value="3">3</option>
+                                        <option  value="4">4</option>
+                                        <option  value="5">5</option>
+                                        <option  value="6">6</option>
+                                        <option  value="7">7</option>
+                                        <option  value="8">8</option>
+                                        <option  value="9">9</option>
+                                        <option  value="More than 9" id="select">More than 9</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <input  type="text" name="date" class="required  ff-PT-sans fs-14 w-100 pl-20 form-control  bg-gray h-45px font-weight-bolder  cursor-pointer"   placeholder="Pick a date*" onfocus="(this.type='date')" >
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group ">
+                                    <select   name="use_type2" class="required  ff-PT-sans fs-14 w-100 pl-20  form-control  bg-gray h-45px  font-weight-bolder  cursor-pointer" placeholder="Pick a time*" >
+                                        <option value="">Pick a time*</option>
+                                        <optgroup label="Afternoon Reservation"></optgroup>
+                                        <option value="12pm">1pm</option>
+                                        <option value="12:30pm">12:30pm</option>
+                                        <option value="1pm">1pm</option>
+                                        <option value="1:30pm">1:30pm</option>
+                                        <optgroup label="Evening Reservation"></optgroup>
+                                        <option value="6pm">6pm</option>
+                                        <option value="6:30pm">6:30pm</option>
+                                        <option value="7pm">7pm</option>
+                                        <option value="7:30pm">7pm</option>
+                                        <option value="8pm">8pm</option>
+                                        <option value="8:30pm">8:30pm</option>
+                                        <option value="9pm">9pm</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <textarea  id="textaria" type="text" name="textarea"  cols="30" rows="7" class="required form-control  ff-PT-sans fs-14 w-100 pl-20 pt-15 border-radius-5   bg-gray   font-weight-bolder outline-none border-none cursor-pointer" placeholder="Tell us about any special requirements*"></textarea>
+                                </div>
+                            
+                            </div>
+                        </div>
+                        <div class="col-lg-12 mb-100px mb-md-50px d-block">
+                            <input type="submit" value="Find me a table!"  class="btn btn-dark  h-45px  p-0 w-100" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="bg-restoran overflow-hidden">
+        <div class="container-fluid">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-lg-4 mb-100px mb-lg-0px mt-65px">
+                        <h4 class="ff-ubuntu font-weight-bold text-white text-uppercase fs-16 mb-4">contact us</h4>
+                        <div class="w-20px h-3px bg-gray opacity-09 mb-4 d-lg-block d-none"></div>
+                        <p class="ff-PT-sans fs-14  text-secondary mb-4">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc.</p>
+                        <a href="#" class=" text-decoration-none text-secondary fs-18 fs-sm-13 w-100 hover-white mb-1 d-block">
+                            <i class="fas fa-phone-square-alt fs-22 pr-4 text-white "></i>
+                            +00678987658
+                        </a>
+                        <a href="#" class="ff-PT-sans  text-secondary fs-18 fs-sm-13  w-100 hover-white d-block mb-1">
+                            <i class="fas fa-envelope-square fs-22 pr-4 text-white"></i>
+                            bookings@hungrytheme.net
+                        </a>
+                        <a href="#" class="fs-14 ff-PT-sans font-italic text-secondary text-decoration-none hover-white d-flex">
+                            <i class="fas fa-caret-square-down fs-22 pr-4 text-white"></i>  
+                            <p class="w-50  m-0 fs-18 fs-sm-13 w-sm-100">18 Stomach Ave. Foodville, USA</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 mb-100px mb-lg-0px mt-65px px-0 px-lg-2">
+                        <h4 class="ff-ubuntu text-white text-uppercase fs-16 mb-4">new on the menu</h4>
+                        <div class="w-20px h-3px bg-gray opacity-09 mb-4 d-lg-block d-none"></div>
+                        <div class="border-bottom-dotted mb-3 pb-2 d-flex">
+                            <a href="img/steacBurger.jpg" class="h-50px w-50px border-gray-3px hover-border  rounded-circle  transition-03 d-block new-menu"   data-fancybox="new-menu" data-caption="Angus Steak Burger" >
+                                <img src="img/steacBurger.jpg" class="w-100 h-100 object-fit-cover rounded-circle" alt="">
+                            </a>
+                            <div class="ml-3">
+                                <a href="img/steacBurger.jpg" class="ff-PT-sans ff-ubuntu font-weight-bold fs-16 fs-sm-13 text-decoration-none text-uppercase text-white hover-yellow  m-0 new-menu1"    data-fancybox="new-menu1" data-caption="Angus Steak Burger">Angus Steak Burger</a>
+                                <p class="ff-ubuntu ff-PT-sans fs-16 fs-sm-13 text-secondary m-0">Aenean commodo ligula eget dolor.</p>
+                            </div>
+                        </div>
+                        <div class="border-bottom-dotted mb-3 pb-2 d-flex">
+                            <a href="img/MEXICAN CHICKEN FAJITAS.jpg" class="h-50px w-50px border-gray-3px hover-border  rounded-circle  transition-03 d-block new-menu"   data-fancybox="new-menu" data-caption="Mexican Chicken Fajitas" >
+                                <img src="img/MEXICAN CHICKEN FAJITAS.jpg" class="w-100 h-100 object-fit-cover rounded-circle" alt="">
+                            </a>
+                            <div class="ml-3">
+                                <a href="img/MEXICAN CHICKEN FAJITAS.jpg" class="ff-PT-sans ff-ubuntu font-weight-bold fs-16 fs-sm-13 text-decoration-none text-uppercase text-white hover-yellow  m-0 menu1" data-fancybox="new-menu1" data-caption="Mexican Chicken Fajitas">mexican chicken fajitas</a>
+                                <p class="ff-ubuntu ff-PT-sans fs-16 fs-sm-13 text-secondary m-0">Aenean commodo ligula eget dolor.</p>
+                            </div>
+                        </div>
+                        <div class=" pb-2 d-flex">
+                            <a href="img/CHOCOLATE FUDGE CAKE.jpg" class="h-50px w-50px border-gray-3px hover-border  rounded-circle  transition-03 d-block" class="new-menu"  data-fancybox="new-menu" data-caption="Chocolate fudge cake" >
+                                <img src="img/CHOCOLATE FUDGE CAKE.jpg" class="w-100 h-100 object-fit-cover rounded-circle" alt="">
+                            </a>
+                            <div class="ml-3">
+                                <a href="img/CHOCOLATE FUDGE CAKE.jpg" class="ff-PT-sans ff-ubuntu font-weight-bold fs-16 fs-sm-13 text-decoration-none text-uppercase text-white hover-yellow  m-0 new-menu1" data-fancybox="new-menu1" data-caption="Chocolate fudge cake">chocolate fudge cake</a>
+                                <p class="ff-ubuntu ff-PT-sans fs-16 fs-sm-13 text-secondary m-0">Aenean commodo ligula eget dolor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-100px mb-lg-50px mt-65px ">
+                        <h4 class="ff-ubuntu text-white text-uppercase fs-16 mb-4 ">opening times</h4>
+                        <div class="w-20px h-3px bg-gray opacity-09 mb-4 d-lg-block d-none"></div>
+                        <div class="d-flex justify-content-between border-bottom-dotted pb-2">
+                            <div class="ff-PT-sans font-weight-bolder fs-16 text-white">Monday</div>
+                            <div class="ff-PT-sans font-weight-light fs-16 text-secondary">5pm-11pm</div>
+                        </div>
+                        <div class="d-flex justify-content-between border-bottom-dotted pb-2">
+                            <div class="ff-PT-sans font-weight-bolder fs-16 text-white">Tuesday</div>
+                            <div class="ff-PT-sans font-weight-light fs-16 text-secondary">5pm-11pm</div>
+                        </div>
+                        <div class="d-flex justify-content-between border-bottom-dotted pb-2">
+                            <div class="ff-PT-sans font-weight-bolder fs-16 text-white">Wednesday</div>
+                            <div class="ff-PT-sans font-weight-light fs-16 text-secondary">Closed</div>
+                        </div>
+                        <div class="d-flex justify-content-between border-bottom-dotted pb-2">
+                            <div class="ff-PT-sans font-weight-bolder fs-16 text-white">Thursday</div>
+                            <div class="ff-PT-sans font-weight-light fs-16 text-secondary">5pm-11pm</div>
+                        </div>
+                        <div class="d-flex justify-content-between border-bottom-dotted pb-2">
+                            <div class="ff-PT-sans font-weight-bolder fs-16 text-white">Friday</div>
+                            <div class="ff-PT-sans font-weight-light fs-16 text-secondary">5pm - Midnight</div>
+                        </div>
+                        <div class="d-flex justify-content-between border-bottom-dotted pb-2">
+                            <div class="ff-PT-sans font-weight-bolder fs-16 text-white">Saturday</div>
+                            <div class="ff-PT-sans font-weight-light fs-16 text-secondary">4:30pm - Midnight</div>
+                        </div>
+                        <div class="d-flex justify-content-between border-bottom-dotted pb-2">
+                            <div class="ff-PT-sans font-weight-bolder fs-16 text-white">Sunday</div>
+                            <div class="ff-PT-sans font-weight-light fs-16 text-secondary">5pm-11pm</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-footer py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 text-lg-left text-center ">
+                        <span class="ff-ubuntu font-weight-bolder fs-22 fs-sm-20  text-white text-uppercase ls-5px ls-sm-3px">hungry</span>
+                        <span class="ff-ubuntu fs-12 fs-sm-8  text-secondary text-uppercase ls-3px">| Established in 1982</span>
+                    </div>
+                    <div class="col-lg-6 text-lg-right text-center">
+                        <p  class="ff-PT_sans font-weight-normal fs-12 text-secondary m-0">
+                            Designed by 
+                            <a href="#" class="color-yellow text-decoration-none  hover-white">Subatomic Themes</a>
+                            for 
+                            <a href="#"  class="color-yellow text-decoration-none hover-white">Themeforest</a>
+                            . Proudly Powered by 
+                            <a href="#" class="color-yellow text-decoration-none  hover-white">WordPress</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="fancybox-master/dist/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

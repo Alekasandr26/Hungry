@@ -1,0 +1,305 @@
+.bg-body{
+    background: url(../img/kulinariya5.jpg) repeat  fixed;
+    background-size: cover;
+}
+.scrollTop{
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    z-index: 150;
+    font-size: 60px;
+}
+.scrollTop:hover > a{
+    color: #fa0f0f !important;
+    transition: all 0.3s linear;
+
+}
+
+/* fonts */
+.ff-ubuntu{font-family: 'Ubuntu'  sans-serif !important;}
+.ff-PT-sans{font-family: 'PT Sans'  sans-serif !important;}
+.ff-Alex-Brush{font-family: 'Alex Brush', cursive , sans-serif !important;}
+.sans-serif{font-family: sans-serif !important;}
+.text-black{color: #000;}
+/* fonts */
+
+/*=========background========= */
+.bg-dark{  background: rgba(0, 0, 0, 0.421) !important;}
+.bg-black{background: #000;}
+.bg-yellow{background: #ffd93fb1 !important;}
+.bg-gray{background: #e6e6e6 !important;}
+.bg-restoran{
+    background: url(../img/the_gallery3.jpg) no-repeat center center;
+    background-size: cover;
+    box-shadow: inset 400px 400px 400px 400px rgba(0,0,0,0.9);
+} 
+.bg-footer{background: #1f1f1f;}
+.dots{
+    background: url(/img/dots.png) repeat-x 0 68%;
+    display: block;
+}
+.bg-header{
+    background: url(/img/kulinariya2.jpg) no-repeat center center;
+    background-size: cover;
+    /* -webkit-box-shadow: inset 0px 0px 85px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset 0px 0px 85px rgba(0,0,0,0.4); */
+     box-shadow: inset 400px 400px 400px 400px rgba(0,0,0,0.5);
+}
+/*=========background========= */
+.active-item{
+    color: #ffd83f !important;
+    background: rgba(0, 0, 0, 0.605) !important;
+    border-top: 3px solid #ffd83f !important; 
+    padding-top: 5px !important;
+}
+
+
+.without-contour{
+    border: 0 !important;
+    outline: none !important;
+}
+.error{color: #F00 !important;}
+.has-error{
+    border: 2px #F00 solid !important;
+    border-radius: 5px !important;
+    outline: none !important;
+}
+
+.text-shadow{text-shadow: #ffd83f 3px 0px 3px, #ffd83f 0px 3px 3px, #ffd83f 0px -3px 3px, #ffd83f -3px 0px 3px;}
+/* =========colors=========== */
+.color-yellow{color: #ffd83f !important;}
+
+/* =========colors=========== */
+
+
+/* font-size */
+.fs-160{font-size: 160px;}
+.fs-72{font-size: 72px;}
+.fs-36{font-size: 36px;}
+.fs-32{font-size: 32px;}
+.fs-30{font-size: 30px;}
+.fs-25{font-size: 25px;}
+.fs-24{font-size: 24px;}
+.fs-22{font-size: 22px;}
+.fs-18{font-size: 18px;}
+.fs-16{font-size: 16px;}
+.fs-15{font-size: 15px;}
+.fs-14{font-size: 14px;}
+.fs-13{font-size: 13px;}
+.fs-12{font-size: 12px;}
+.fs-11{font-size: 11px;}
+
+/* font-size */
+
+
+/* letter-spacing */
+.ls-5px{letter-spacing: 5px !important;}
+.ls-3px{letter-spacing: 3px !important;}
+/* letter-spacing */
+
+/* height */
+.h-100vh{height: 100vh;}
+.h-400px{height: 400px;}
+.h-475px{height: 475px;}
+.h-370px{height: 370px;}
+.h-340px{height: 340px;}
+.h-260px{height: 260px;}
+.h-250px{height: 250px;}
+.h-225px {height: 225px;}
+.h-150px{height: 150px;}
+.h-120px{height: 120px;}
+.h-110px{height: 110px;}
+.h-100px{height: 100px !important;}
+.h-60px{height: 60px !important;}
+.h-50px{height: 50px !important;}
+.h-45px{height: 45px !important;}
+.h-35px{height: 35px !important;}
+.h-3px{height: 3px !important;}
+/* height */
+
+
+/* Line-height */
+.lh-260px{line-height: 170px !important;}
+.lh-100px{line-height: 80px !important;}
+.lh-40px{line-height: 40px;}
+.lh-35px{line-height: 35px !important;}
+.lh-15px{line-height: 15px !important;}
+/* Line-height */
+
+
+/* width */
+.w-90{width: 90% !important;}
+.w-60{width: 60% !important;}
+.w-46{width: 48% !important;}
+.w-23{width: 23% !important;}
+.w-20{width: 20% !important;}
+.w-10{width: 10% !important;}
+.mw-400px{max-width: 400px;}
+.mw-370px{max-width: 370px;}
+.w-400px{width:400px;}
+.w-250px{width:250px;}
+.w-160px{width: 160px;}
+.w-150px{width: 150px;}
+.w-120px{width: 120px;}
+.w-100px{width: 100px;}
+.w-60px{width: 60px;}
+.w-50px{width: 50px;}
+.w-35px{width: 35px;}
+.w-20px{width: 20px;}
+/* width */
+   
+/* margins */
+.mt-100px{margin-top: 100px;}
+.mt-65px{margin-top: 65px;}
+.ml-110px{margin-left: 110px !important;}
+.mt-n10px{margin-top: -10px;}
+.mln-60px{margin-left: -60px;}
+.mln-50px{margin-left: -50px;}
+.mb-100px{margin-bottom: 100px;}
+/* margins */
+
+/* positions */
+.top-50{top: 50%;}
+.right-0{right: 0 !important;}
+.left-0{left: 0;}
+/* positions */
+
+/* borders */
+.border-3px{border: 3px solid #4c4f51;}
+.border-gray{border: 7px #f0f0f0 solid !important;}
+.border-gray-3px{border: 3px #9f9f9f9f solid !important;}
+.border-bottom-dotted{border-bottom: 1px dotted #999999;}
+.border-left-4px-yellow{border-left: 4px solid #ffd83f !important;}
+
+.border-radius-5px{border-radius: 5px !important;}
+/* borders */
+
+/* transforms */
+.transform-Rotate-7deg{transform: rotate(-7deg);}
+.transform-Rotate-100deg{transform: rotate(-100deg);}
+.transform-rotate-180deg{transform: rotatey(-180deg);}
+
+/* transforms */
+
+/* transition */
+.transition-03{transition: all 0.3s linear;}
+/* transition */
+
+/* opacity */
+.opacity-0{opacity: 0 !important;}
+.opacity-09{opacity: 0.9;}
+/* opacity */
+
+.cursor-pointer{cursor: pointer;}
+.z-index-100{z-index: 100 !important;}
+.object-fit-cover{object-fit: cover;}
+.child-1,.child-2{display: none;}
+
+/* hovers */
+.hover-link:hover{
+    color: #ffd83f !important;
+    background: rgba(0, 0, 0, 0.605) !important;
+    transition: background 0.4s linear;
+    border-top: 3px solid #ffd83f !important;
+    padding-top: 5px !important;
+}
+  
+.hover-drob-link:hover{
+    color: #fff !important;
+    background: #000!important;
+    transition: background 0.4s linear;
+    border-left: 3px solid #ffd83f !important;
+    padding-left: 13px !important;
+}
+.hover-icon:hover{ 
+    background: #fff !important;
+    color: #000 !important;
+    transition: background 0.4s linear;
+}
+.hover-arrow:hover{
+    background: #fff !important;
+    color: #000 !important;
+    transition: background 0.4s linear;
+}
+.hover-yellow:hover{
+    color: #ffd83f !important;
+}
+.hover-yellow-1:hover{
+    background: #ffd83f !important;
+    color: #fff;
+}
+.hover-white:hover{color: #fff !important;}
+
+.hover-border:hover{ border: 3px solid #ffd83f !important;}
+
+/* hovers */
+.coment::before{
+    border: medium solid transparent;
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-width: 10px;
+    border-color: rgba(0, 0, 0, 0.459) rgba(255, 212, 52, 0) rgba(255, 212, 52, 0);
+    left: 47%;
+    bottom: -20px ;
+}
+.booking::after , .booking::before{
+    content: " ";
+    display: inline-block;
+    vertical-align: middle;
+    width: 20%;
+	height: 3px;
+    background-color: #6c757d !important;
+}
+/* media */
+/* lg */
+@media only screen and (max-width: 992px){
+    .h-lg-35px{height: 35px;}
+    .w-lg-270px{width: 270px;}
+    .w-lg-100px{width: 100px;}
+    .h-lg-270px{height: 270px;}
+    .h-lg-100px {height: 100px;}
+    .position-lg-relative{position: relative  !important;}
+    .w-lg-100{width: 100% !important;}
+    .w-lg-50{width: 48% !important;}
+    .scroll{ overflow: scroll !important;}
+    .fs-md-60{font-size: 60px;}
+    .mt-lg-30px{margin-top: 30px;}
+    .mb-lg-50px{margin-bottom: 50px;}
+    .mb-lg-0px{margin-bottom: 0 !important;}
+
+    .bottom-lg-25{bottom: 25%;}
+}
+/* md */
+@media only screen and (max-width: 768px){
+    /* .p-md-0{padding: 10px 30px;} */
+    .w-md-100{width: 100% !important;}
+    .h-md-240px{height: 240px;}
+    .mt-md-50px{margin-top: 50px;}
+    .mb-md-50px{margin-bottom: 50px;}
+    .mb-md-20px{margin-bottom: 20px;}
+    .mb-md-0{margin-bottom: 0;}
+    .fs-md-26px{font-size: 26px;}
+    .fs-md-20px{font-size: 18px;}
+
+}
+@media only screen and (max-width: 576px){
+    .fs-sm-20{font-size: 20px;}
+    .fs-sm-16{font-size: 16px;}
+    .fs-sm-13{font-size: 13px;}
+    .fs-sm-11{font-size: 11px;}
+    .fs-sm-8{font-size: 8px !important;}
+    .ls-sm-3px{letter-spacing: 3px !important;}
+
+    .w-sm-100{width: 100% !important;}
+    .w-sm-80px{width: 80px;}
+    .w-sm-25px{width: 25px;}
+
+    .h-sm-80px{height: 80px !important;}
+    .h-sm-25px{height: 25px !important;}
+
+    .right-sm-0{right: 0 !important;}
+    .mrn-sm-40px{margin-right: -40px !important;}
+    .booking::after , .booking::before{ width: 0;}
+}
